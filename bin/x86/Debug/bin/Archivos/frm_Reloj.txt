@@ -1,0 +1,28 @@
+Instrucciones de uso:
+
+1. Esta ventana servira para poder dar de Alta o Eliminar a usuarios de un Reloj.
+2. En el lado Izquierdo de la Ventana, el Grupo "Empleados" se debera seguir los siguientes
+   pasos:
+     I. Seleccionar el Departamento y Puesto o en su defecto marcar las casillas «Todos».
+    II. Dar clic en el boton "Mostrar" para que se enlisten los Empleados que tengan
+		huellas capturadas.
+   III. En la lista se podra realizar lo siguiente:
+        a) Al "Seleccionar" un empleado se podra visualizar en la imagen inferior (la de
+		   las manos) que dedos tiene capturados (el dedo tendra una paloma) y por
+           consiguiente serian los dedos que se podrian agregar al Reloj.
+        b) Al "Marcar" se estara especificando los usuarios que seran Agregados al Reloj.
+3. En el lado Derecho de la Ventana, el Grupo "Empleados en el Reloj" se debera seguir los
+   siguientes pasos:
+     I. Seleccionar de la lista desplegable el Reloj al cual se le agregara o modificara
+        los usuarios.
+    II. Automaticamente al seleccionar un Reloj se llenara la lista indicandonos el Total
+        de Empleados que tiene dados de alta en la parte Derecha Superior.
+   III. Al seleccionar un Empleado de la lista, tambien se mostrara en la imagen de las
+        manos los dedos que tienen dados de alta, se debe tener en cuenta que al no estar
+        los relojes completamente actualizados, el orden de los dedos no sera el correcto.
+4. El boton de "Agregar" se activara cuando se hayan Marcado Empleados del lado Izquierdo
+   y ademas del lado derecho en la lista desplegable se tenga seleccionado un Reloj.
+5. El area de Prenominas podra realizar estas mismas acciones pero ademas se le activara
+   el privilegio de poder eliminar usuarios en los Relojes, por consiguiente la lista de
+   "Empleados en el Reloj" tendra la opcion de marcar varios empleados para realizar esta
+   accion.

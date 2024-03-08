@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css" />
+	<style>
+		html {
+			font-size: 12px;
+		}
+
+		.pt-5 {
+			padding-top: 5rem !important;
+			padding-left: 5rem !important;
+			padding-right: 5rem !important;
+		}
+		.pt-3 {
+			padding-top: 2rem !important;
+			padding-left: 2rem !important;
+			padding-right: 2rem !important;
+		}
+		.text-right {
+			text-align: right;
+		}
+
+		.left-tittle {
+			text-align: left;
+			padding-left: 14%;
+		}
+
+		.text-left {
+			text-align: left;
+		}
+
+		.text-left-5 {
+			text-align: left;
+			padding-left: 5%;
+		}
+
+		.text-justify {
+			text-align: justify;
+		}
+		.stretchrow {
+			padding-left:5%;
+			padding-right:5%;
+		}
+	</style>
+	<script type="text/javascript">
+
+		window.chrome.webview.addEventListener('message', event => {
+			WriteDataFromCsharp(event.data);
+		});
+		function WriteDataFromCsharp(data) {
+
+			candidato = JSON.parse(data);
+
+			document.getElementById('nombre').innerText = candidato.Nombre;
+			document.getElementById('fechaAp').innerText = candidato.Fecha;
+			document.getElementById('puesto').innerText = candidato.Persona.Puesto;
+
+			for (let index = 0; index < candidato.RespuestasExamen.length; index++) {
+				CardRespuesta(candidato.RespuestasExamen[index].IdPregunta, candidato.RespuestasExamen[index].Pregunta, candidato.RespuestasExamen[index].Respuesta, candidato.RespuestasExamen[index].EsCorrecta)
+			}
+		}
+
+		//<div class="card">
+		//	<div class="card-body">
+		//		<label>pregunta</label>
+		//		<hr class="hr" />
+		//		<label id="@item.Id" class="form-check-label" for="@item.Id">
+		//			respuesta
+		//		</label>
+		//		<hr class="hr" />
+		//		<label>correcta o no</label>
+		//	</div>
+		//</div>
+
+		function CardRespuesta(id, pregunta, respuesta, correcta) {
+			var rowrespuestas1 = document.getElementById('respuestas1');
+			var rowrespuestas2 = document.getElementById('respuestas2');
+			var rowrespuestas3 = document.getElementById('respuestas3');
+			var rowrespuestas4 = document.getElementById('respuestas4');
+			var rowrespuestas5 = document.getElementById('respuestas5');
+			var rowrespuestas6 = document.getElementById('respuestas6');
+
+			var card = document.createElement('div');
+			card.className = 'card'
+			if (id >= 50) {
+				card.setAttribute('style', 'margin-bottom:4px;margin-top:4px')
+			} else
+			{
+				card.setAttribute('style', 'margin-bottom:7px;margin-top:7px')
+			}
+			
+			
+			var cardbody = document.createElement('div');
+			cardbody.className = 'card-body'
+
+			var lblpregunta = document.createElement('label');
+			lblpregunta.innerHTML = id + "-¿ " + pregunta + " ?";
+			cardbody.appendChild(lblpregunta);
+			var hrpregunta = document.createElement('hr');
+			hrpregunta.className = 'hr'
+			cardbody.appendChild(hrpregunta)
+
+			var lblrespuesta = document.createElement('label');
+			lblrespuesta.innerHTML = "R: " + respuesta + " ";
+			lblrespuesta.setAttribute("style", "margin-right:50px")
+			cardbody.appendChild(lblrespuesta);
+
+			var lblcorrecta = document.createElement('label');
+			lblcorrecta.innerHTML = correcta
+			if (correcta === "Correcta") {
+				lblcorrecta.className = "bg-success"
+				lblcorrecta.setAttribute("style", "color: white")
+			} else {
+				lblcorrecta.className = "bg-danger"
+				lblcorrecta.setAttribute("style", "color: white")
+			}
+
+			cardbody.appendChild(lblcorrecta);
+
+			card.appendChild(cardbody);
+
+			if (id < 10) {
+				rowrespuestas1.appendChild(card);
+			}
+			else if (id >=10 && id <=19) {
+				rowrespuestas2.appendChild(card)
+			}
+			else if (id >= 20 && id <= 29) {
+				rowrespuestas3.appendChild(card)
+			}
+			else if (id >= 30 && id <= 39) {
+				rowrespuestas4.appendChild(card)
+			}
+			else if (id >= 40 && id <= 49) {
+				rowrespuestas5.appendChild(card)
+			}
+			else if (id >= 50 && id <= 60) {
+				rowrespuestas6.appendChild(card)
+			}
+			//else if (id >= 57 && id <= 60) {
+			//	rowrespuestas7.appendChild(card)
+			//}
+
+		}
+
+		function RequestData() {
+			//function triggered by a button on the html page
+			//alert('post to c#');
+			window.chrome.webview.postMessage('getData');
+		}
+
+	</script>
+</head>
+<body onload="RequestData()">
+
+	<div class="row stretchrow">
+		<div class="container pt-3">
+			<div class="card">
+				<div class="card-title" style="
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;">
+					<h2 style="float: left;">MEDICIÓN RAPIDA DE HABILIDAD INTELECTUAL </h2>
+					<h2 style="float: right;">BARSIT</h2>
+				</div>
+				<div class="card-body">
+					<div class="row">
+						<div class="col-6">
+							<h4 class="" style="float: left;"">
+								NOMBRE :
+							</h4>
+							<h5 id="nombre"></h5>
+							<h4 class="" style="float: left;">
+								Puesto :
+							</h4>
+							<h5 id="puesto" style="">
+								
+							</h5>
+						</div>
+						<div class="col-6">
+							<h4 class="" style="float: left;">
+								Fecha Aplicacion :
+							</h4>
+							<h5 id="fechaAp" ></h5>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div id="respuestas1" class="stretchrow"></div>
+			<div id="respuestas2" class="stretchrow" style="padding-top:5rem !important"></div>
+			<div id="respuestas3" class="stretchrow" style="padding-top:5rem !important"></div>
+			<div id="respuestas4" class="stretchrow" style="padding-top:5rem !important"></div>
+			<div id="respuestas5" class="stretchrow" style="padding-top:5rem !important"></div>
+			<div id="respuestas6" class="stretchrow" style="padding-top:60px !important"></div>
+			
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name='viewport' content='initial-scale=1.0, user-scalable=no'>
+<meta charset='utf-8'>
+<title>Marcadores y Puntos</title>
+<style>
+html, body, #map-canvas {
+height: 100%;
+margin: 0px;
+padding: 0px
+}
+</style>
+<script src='http://maps.googleapis.com/maps/api/js?V=3.exp'></script>
+<script>
+function initialize() {
+var mapOptions = {
+zoom: 12,
+center: new google.maps.LatLng(25.6784480,-100.3237690),
+mapTypeId:  'hybrid'
+};
+var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+var contentString1 = '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h3 id="firstHeading" class="firstHeading">4348 - GERMAN HERNANDEZ RIVERA</h3>'+
+'<div id="bodyContent">'+'<p>SISTEMAS - PROGRAMADOR DE SISTEMAS - ACTIVO</p>'+'</div>'+
+'</div>';
+var infowindow1= new google.maps.InfoWindow({
+content: contentString1
+});var marker1= new google.maps.Marker({
+position: new google.maps.LatLng(25.768194,-100.318682),
+map: map,
+title:'4348 - GERMAN HERNANDEZ RIVERA'
+});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);
+});
+var contentString2 = '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h3 id="firstHeading" class="firstHeading">4672 - SALVADOR AVILA HERNANDEZ</h3>'+
+'<div id="bodyContent">'+'<p>SISTEMAS - PROGRAMADOR DE SISTEMAS - ACTIVO</p>'+'</div>'+
+'</div>';
+var infowindow2= new google.maps.InfoWindow({
+content: contentString2
+});var marker2= new google.maps.Marker({
+position: new google.maps.LatLng(25.781698,-100.486609),
+map: map,
+title:'4672 - SALVADOR AVILA HERNANDEZ'
+});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);
+});
+var contentString3 = '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h3 id="firstHeading" class="firstHeading">DVL-1107 - RAUL COSS ACEVEDO</h3>'+
+'<div id="bodyContent">'+'<p>SISTEMAS - ADMINISTRADOR DE SISTEMAS - ACTIVO</p>'+'</div>'+
+'</div>';
+var infowindow3= new google.maps.InfoWindow({
+content: contentString3
+});var marker3= new google.maps.Marker({
+position: new google.maps.LatLng(25.678500,-100.323700),
+map: map,
+title:'DVL-1107 - RAUL COSS ACEVEDO'
+});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);
+});
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+<body>
+<div id='map-canvas'></div>
+</body>
+</html>

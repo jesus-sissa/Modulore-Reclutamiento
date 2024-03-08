@@ -1,0 +1,23 @@
+Instrucciones de uso:
+
+1. Esta ventana servira para poder consultar los Empleados y Huellas registradas tanto en
+   la Base de Datos como en los Relojes.
+2. Seleccionar de la lista desplegable el Reloj que se deseara consultar, al realizarlo
+   se mostrara a un lado la version con la que se esta trabajando en ese reloj.
+3. Darle clic al boton "Mostrar" para que se llenen las listas
+4. Las consultas sera dividida en dos partes (pestanas):
+	 I. Registros: contendra los Empleados que se hayan guardado en la Base de Datos y 
+	    en el Reloj seleccionado.
+	II. Huellas: contendra los Empleados que tengan huellas guardadas en la Base de Datos
+	    y los Empleados que tengan huellas en el Reloj seleccionado, ambas listas se
+	    detallara el empleado y que dedo es el que tiene registrado.
+3. Todas las listas en su parte superior derecha se mostrara un Total de Registros
+   enlistados.
+4. El boton "Importar Reg." importara todos los empleados que se tengan guardados del Reloj
+   a la Base de Datos para llevar un historial de los registros.
+5. El boton de "Importar Temp." importara todas las huellas de los empleados guardados del
+   Reloj a la Base de Datos para llevar un historial de los registros.
+6. El boton "Exportar Reg." exportara la primer lista (grupo "Registrados") de la pestana
+   de "Registros" a un archivo excel.
+7. El boton "Exportar Reloj." exportara la segunda lista (grupo "En el Reloj") de la
+   pestana de "Registros" a un archivo excel.

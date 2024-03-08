@@ -1,0 +1,1405 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Modulo_Reclutamiento
+</name>
+</assembly>
+<members>
+<member name="T:Modulo_Reclutamiento.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources._1rightarrow">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources._1rightarrow1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources._8">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources._next">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Acercade">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.ActualizacionesInstaladas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Actualizar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.add">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.add_user1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.advanced">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Agregar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.agt_reload">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Atencion">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Baja">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Baja_Empleados">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.BajaReing">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Buscar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.BuscarUpdates">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.calendar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Camara">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Camara2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Cancelar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.cancelar1A">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.CasaVisita">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.CatalogosGlobales">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Cerrar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.clock">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Color_Ojos">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Color_Pelo2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Color_Piel">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.conectar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.conectar_bdd2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.consultaAlertas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.ConsultaTraslados">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Crear_rfc_curp">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.CredencialDetalle">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Delete">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.documento">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.documentos">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.DocumentosRequeridos">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.DocumentosRequeridos1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Dos_Manos">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Earth_Download_icon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Editar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.editcopy">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.ErrorSistema2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.ErrorSistemaGrande">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Expedir_Credenciales">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Exportar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.ExtraerImagenesEmpleado">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.ExtraerImagenesEmpleado1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Falla_Unidad">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.fallaSistema">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.file_temporary">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Fingerprint24x24">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.folder_open">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Grados_Escolares2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Graficas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.greenled">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Guardar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Guardias">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Hdactilar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.help_contents">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.HoraSi">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.huella">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.imagen_original">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Img_AddImagen2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Img_Exportar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.ImplementoAsigna">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.ImplementoDevolver">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Implementos">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Imprimir">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Imprimir1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.investigacion">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.lc_dbdtableedit">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.lock">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.LogoNoDisponible">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.LogoSIAC">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.logout24">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Mail_Enviado">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.mail_replay">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.MapaMundo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.messagebox_critical">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Motivos_Baja">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.ok">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Parentesco">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.pda_alt">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Planear">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.player_time">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Prefactura">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.previous">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.printer">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Procesar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Prospecto24x24">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.quick_restart">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.quitar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.RecortarImagen">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.redled">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.refresh">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.refresh_derecha">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Regiones">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.ReporteFalla">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Salir">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.scanner_app___copia">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.seguimientoFallas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Seleccionar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.signature">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.solicitudEquipo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Tipo_Complexion">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Tipo_Docto_Escolar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Tipo_Licencia">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Tipo_Referencias">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Tipo_Sangre">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Tipo_Sangre2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Tipo_Vivienda">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Trash">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Trash16">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Trash2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.User24x24">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.UserBaja2_24x24">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modulo_Reclutamiento.My.Resources.Resources.Validar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:Modulo_Reclutamiento.Cn_Reclutamiento.fn_BuscarClientes_LlenarLista(Modulo_Reclutamiento.cp_Listview,System.Boolean)">
+ <summary>
+ Llena la lista lsv_Clientes
+ </summary>
+ <returns>Devuelve true en caso de que se haya hecho correctamente la acutalizacion</returns>
+</member>
+<member name="M:Modulo_Reclutamiento.Cn_Reclutamiento.fn_BuscarClientes_LlenarListaEmpleados(Modulo_Reclutamiento.cp_Listview,System.String)">
+ <summary>
+ Llena la lista lsv_Clientes con Empleados
+ </summary>
+ <returns>Devuelve true en caso de que se haya hecho correctamente la acutalizacion</returns>
+</member>
+<member name="M:Modulo_Reclutamiento.Cn_Reclutamiento.fn_BuscarClientes_LlenarListaCajasBancarias(Modulo_Reclutamiento.cp_Listview)">
+ <summary>
+ Llena la lista lsv_Clientes con Cajas Bancarias
+ </summary>
+ <returns>Devuelve true en caso de que se haya hecho correctamente la acutalizacion</returns>
+</member>
+<member name="M:Modulo_Reclutamiento.Cn_Reclutamiento.fn_BuscarClientes_LlenarListaEmpleadosyProspectos(Modulo_Reclutamiento.cp_Listview,System.String,System.String,System.String)">
+ <summary>
+ Llena la lista lsv_Clientes con Empleados y Prospectos
+ </summary>
+ <returns>Devuelve true en caso de que se haya hecho correctamente la acutalizacion</returns>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Boleta">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Boleta.Cat_Empleados_ReadWEBDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Boleta.Cat_EmpleadosFamiliares_ReadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Boleta.Cat_Empleados_ReadWEBRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Boleta.Cat_EmpleadosFamiliares_ReadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Boleta.Cat_Empleados_ReadWEBRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Boleta.Cat_EmpleadosFamiliares_ReadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_FichaTecnica">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_FichaTecnica.Cat_Empleados_GetFichaTecnicaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_FichaTecnica.Cat_EmpleadosCursos_ReadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_FichaTecnica.Cat_Empleados_GetFichaTecnicaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_FichaTecnica.Cat_EmpleadosCursos_ReadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_FichaTecnica.Cat_Empleados_GetFichaTecnicaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_FichaTecnica.Cat_EmpleadosCursos_ReadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_OtrasCartas">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_OtrasCartas.Cat_Empleados_GetCartasRptDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_OtrasCartas.Cat_Empleados_GetCartasRptRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_OtrasCartas.Cat_Empleados_GetCartasRptRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_SolicitudDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_DatosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_DatosEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_DatosFDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_PadreDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_MadreDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_HermanosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_RasgosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_EmpleoAnt1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_EmpleoAnt2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_EmpleoAnt3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_EmpleoAnt4DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_ReferenciasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_IengresosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_Cursos1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_mafiliacion1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_mafiliacion2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_mafiliacion3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_Cursos2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_Cursos3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_Cursos4DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_SolicitudRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_DatosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_DatosERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_DatosFRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_PadreRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_MadreRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_HermanosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_RasgosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_EmpleoAnt1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_EmpleoAnt2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_EmpleoAnt3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_EmpleoAnt4Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_ReferenciasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_IengresosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_Cursos1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_mafiliacion1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_mafiliacion2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_mafiliacion3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_Cursos2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_Cursos3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_Cursos4Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_SolicitudRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_DatosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_DatosERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_DatosFRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_PadreRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_MadreRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_HermanosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.Dt_RasgosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_EmpleoAnt1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_EmpleoAnt2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_EmpleoAnt3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_EmpleoAnt4RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_ReferenciasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_IengresosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_Cursos1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_mafiliacion1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_mafiliacion2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_mafiliacion3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_Cursos2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_Cursos3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Solicitud.dt_Cursos4RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="M:Modulo_Reclutamiento.frm_AgregarColonia.MostrarElementos">
+ <summary>
+ Este metodo mostrara los label's que contienen la informacion que se va guardar.
+ </summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Devoluciones">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Devoluciones.dt_DevolucionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Devoluciones.dt_DevolucionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Devoluciones.dt_DevolucionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_CargarArchivos.Filtro">
+<summary> Filtro para que sólo se seleccione ciertos tipos de Archivos, Ejemplo: "Documento de Word (*.Doc)|*.Doc|Archivo PDF(*.Pdf)|*.Pdf" </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_CargarArchivos.MaxArchivos">
+<summary> El Máximo de Archivos Aceptados </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_CargarArchivos.Id_Tabla">
+<summary> El ID del Registro de la Tabla Principal </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_CargarArchivos.Tipo">
+<summary> El Tipo de Archivo con relación a al Procedimiento, Ejemplo: Empleados, Clientes, Cajas Fuertes, etc. </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_CargarArchivos.DescripcionEnable">
+<summary> Sirve para Activar o Desactivar el Campo Descripción. </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_CargarArchivos.TamañoMaxImagen">
+<summary> Es el Tamaño Máximo a guardar de las Imagenes (valor en bytes y por default esta a 204800, es decir, 200 Kb). </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_CargarArchivos.TamañoMaxArchivo">
+<summary> Es el Tamaño Máximo a guardar de cualquier Archivo (valor en bytes y por default esta a 512000, es decir, 500 Kb). </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_CargarArchivos.CantidaArchivos">
+<summary> Es la Cantidad de Archivos que fueron agregados. (sirve sólo de referencia) </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_CargarArchivos.TagPosicion">
+<summary> Es el Tag del ListViewItem que guarda la Posición en el Arreglo. </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_CargarArchivos.Cont">
+<summary> Es la posición siguiente para guardar en el Arreglo. </summary>
+</member>
+<member name="M:Modulo_Reclutamiento.frm_CargarArchivos.CargarLista">
+<summary> Cargar el Listview con la Información del Arreglo. </summary>
+</member>
+<member name="M:Modulo_Reclutamiento.frm_CargarArchivos.BuscarArchivo">
+<summary> Sirve para seleccionar el Archivo. </summary>
+</member>
+<member name="M:Modulo_Reclutamiento.frm_CargarArchivos.ValidarMaximo">
+<summary> Valida si ya se encuentran agregados el Máximo de Arhivos. </summary>
+</member>
+<member name="M:Modulo_Reclutamiento.frm_CargarArchivos.ReadFile(System.String)">
+<summary> Convertir el Archivo a Arreglo de Bytes. </summary>
+</member>
+<member name="M:Modulo_Reclutamiento.frm_EmpleadosP.buscarLugar(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+ <summary>
+ Este metodo nos ayuda a buscar el pais, el estado y el muncipio en base al codigo postal
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Modulo_Reclutamiento.frm_EmpleadosP.ValidarCodigoPostalGuardar">
+ <summary>
+ Este metodo nos sirve para asegurar que que no se guarden los datos del cliente si el CP no es valido
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Credencial">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Credencial.Cat_EmpleadosCredenciales_GetDetalleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Credencial.Cat_EmpleadosCredenciales_GetDetalleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.ds_Credencial.Cat_EmpleadosCredenciales_GetDetalleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.frm_VisorGraficas">
+<summary> Gestión de Gráficas (al ocurrir un error se muestra el Logo de SISSA) </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_VisorGraficas.Tipo">
+<summary> El Tipo de Gráfica a Realizar. </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_VisorGraficas.lsv">
+<summary> ListView que se usará para Generar la Gráfica </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_VisorGraficas.Dt_Nueva">
+<summary> DataTable que se usará para Generar la Gráfica (no es obligatoria) </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_VisorGraficas.Desde">
+<summary> Fecha Incial en que se realizo la Consulta </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_VisorGraficas.Hasta">
+<summary> Fecha Final en que se realizo la Consulta </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_VisorGraficas.Departamento">
+<summary> Departamento en que se realizo la Consulta </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_VisorGraficas.Puesto">
+<summary> Puesto en que se realizo la Consulta </summary>
+</member>
+<member name="T:Modulo_Reclutamiento.frm_VisorImagenes">
+<summary> Gestión de Imagenes (al ocurrir un error se muestra el Logo de SISSA) </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_VisorImagenes.Imagen">
+<summary> Se recibe una Imagen </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_VisorImagenes.ImagenBytes">
+<summary> Se recibe una Imagen en formato de Bytes </summary>
+</member>
+<member name="F:Modulo_Reclutamiento.frm_VisorImagenes.RutaImagen">
+<summary> Se recibe la Ruta donde se encuentra la imagen </summary>
+</member>
+<member name="T:Modulo_Reclutamiento.Ds_CartaAcceso">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.Ds_CartaAcceso.Cat_CartasAcceso_GetRptDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.Ds_CartaAcceso.Cat_CartasAcceso_GetRptRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Modulo_Reclutamiento.Ds_CartaAcceso.Cat_CartasAcceso_GetRptRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="M:Modulo_Reclutamiento.frm_Empleados.buscarLugar(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+ <summary>
+ Este metodo nos ayuda a buscar el pais, el estado y el muncipio en base al codigo postal
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Modulo_Reclutamiento.frm_Empleados.ValidarCodigoPostalMostrar">
+ <summary>
+ Este metodo sirve para validar si el codigo postal existe o no existe. En caso de que no exista se pintara de rojo.
+ </summary>
+</member>
+<member name="M:Modulo_Reclutamiento.frm_Empleados.ValidarCodigoPostalGuardar">
+ <summary>
+ Este metodo nos sirve para asegurara que no se guarden los datos del cliente si el codigo postal es incorrecto
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Modulo_Reclutamiento.FuncionesGlobales.LlenarMinutos(System.Int32,Modulo_Reclutamiento.cp_cmb_Manual)">
+ <summary>
+ Sirve para llenar un combo con intervalos de minutos definidos
+ </summary>
+ <param name="Minutos">Es el numero de minutos que se van a avanzar con cada ciclo</param>
+ <param name="combo">es el combo que se va a llentar</param>
+</member>
+<member name="T:Modulo_Reclutamiento.cp_Combobox">
+ <summary>
+ Es un combobox con funcionalidad extendida
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Combobox.Control_Siguiente">
+ <summary>
+ Es el control que obtendra el foco al presionar siguiente
+ </summary>
+</member>
+<member name="T:Modulo_Reclutamiento.cp_Listview">
+ <summary>
+ Es un listview con funcionalidades extendidas
+ </summary>
+</member>
+<member name="E:Modulo_Reclutamiento.cp_Listview.AlActualizar">
+ <summary>
+ Este evento se producira al ejecutarse la funcion Actualizar
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Listview.Lvs">
+ <summary>
+ Obtiene o establece el ordenador del listview
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Listview.Row1">
+ <summary>
+ Obtiene o establece el porcentaje del tamaño en la columna 1
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Listview.Row2">
+ <summary>
+ Obtiene o establece el porcentaje del tamaño en la columna 2
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Listview.Row3">
+ <summary>
+ Obtiene o establece el porcentaje del tamaño en la columna 3
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Listview.Row4">
+ <summary>
+ Obtiene o establece el porcentaje del tamaño en la columna 4
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Listview.Row5">
+ <summary>
+ Obtiene o establece el porcentaje del tamaño en la columna 5
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Listview.Row6">
+ <summary>
+ Obtiene o establece el porcentaje del tamaño en la columna 6
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Listview.Row7">
+ <summary>
+ Obtiene o establece el porcentaje del tamaño en la columna 7
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Listview.Row8">
+ <summary>
+ Obtiene o establece el porcentaje del tamaño en la columna 8
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Listview.Row9">
+ <summary>
+ Obtiene o establece el porcentaje del tamaño en la columna 9
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Listview.Row10">
+ <summary>
+ Obtiene o establece el porcentaje del tamaño en la columna 10
+ </summary>
+</member>
+<member name="M:Modulo_Reclutamiento.cp_Listview.Actualizar(System.Data.SqlClient.SqlCommand,System.String)">
+ <summary>
+ Obtiene valores actualizados de la base de datos
+ </summary>
+ <param name="Cmd">Es el commando del que se obtendran los valores</param>
+ <param name="PK">
+ Es el nombre de la columna que contiene el primary key
+ La columna no se incluye pero su valor se guarda en la propiedad tag de la fila
+ </param>
+</member>
+<member name="T:Modulo_Reclutamiento.cp_Textbox">
+ <summary>
+ Es un textbox con todas las funcionalidades de la aplicacion
+ pero sin ningun valor por defecto
+ </summary>
+</member>
+<member name="E:Modulo_Reclutamiento.cp_Textbox.EnterPress">
+ <summary>
+ Ocurre cuando se presiona la tecla enter
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Textbox.Control_Siguiente">
+ <summary>
+ Es el control al que se va a mover el foco cuando se presione enter
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Textbox.TipoDatos">
+ <summary>
+ Es el tipo de datos que va a admitir el textbox
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_Textbox.Filtrado">
+ <summary>
+ Indica si el textbox va a estar filtrado por Tipo de Datos
+ </summary>
+</member>
+<member name="T:Modulo_Reclutamiento.cp_cmb_Manual">
+ <summary>
+ Es un combobox que debe llenarse manualmente
+ Automaticamente agrega el elemento selecciona...
+ </summary>
+</member>
+<member name="M:Modulo_Reclutamiento.cp_cmb_Manual.AgregarItem(System.String,System.String)">
+ <summary>
+ Agrega un elemento al Combobox
+ </summary>
+ <param name="Value">Es el valor del elemento</param>
+ <param name="Display">Es el texto del elemento</param>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_cmb_SimpleFiltradoParam.Pista">
+ <summary>
+ Indica si se envia o no el parametro  @Pista
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_cmb_SimpleFiltradoParam.Empresa">
+ <summary>
+ Indica si se va a enviar la variable global Empresa al StoredProcedure
+ </summary>
+</member>
+<member name="P:Modulo_Reclutamiento.cp_cmb_SimpleFiltradoParam.Sucursal">
+ <summary>
+ Indica si se va a enviar o no la variable global sucursal al stored procedure
+ </summary>
+</member>
+<member name="M:Modulo_Reclutamiento.cp_cmb_SimpleFiltradoParam.Actualizar">
+ <summary>
+ Actualiza el contenido del combo utilizando el stored procedure
+ </summary>
+ <remarks>'si requiere la sucursal hay que marcar sucursal como true</remarks>
+</member>
+<member name="M:Modulo_Reclutamiento.cp_cmb_SimpleFiltradoParam._Filtro_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ busca el valor del textbox en la columna clave
+ </summary>
+</member>
+<member name="M:Modulo_Reclutamiento.cp_cmb_SimpleFiltradoParam.cp_cmb_SimpleFiltrado_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ escribe en el filtro el numero de clave que se ha seleccionado
+ </summary>
+</member>
+</members>
+</doc>

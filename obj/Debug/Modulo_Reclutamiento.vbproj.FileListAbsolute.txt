@@ -1,0 +1,846 @@
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\ResolveAssemblyReference.cache
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.GenerateResource.Cache
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.manifest
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.application
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Frm_BuscarCliente.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_About.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ConsultaTraslados.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EnviarMensajes.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginContra.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginEmpresa.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Login.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MENU.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VerMensajes.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Resources.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe.manifest
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.application
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Empleados.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorCabello.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorOjos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorPiel.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Implementos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DoctosRequeridos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBaja.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_GradosEscolares.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosAsignar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosDevoluciones.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosInventario.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoComplexion.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoDoctoEscolar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoReferencia.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSangre.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoLicencia.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSenas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TiposParentescos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoVivienda.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_FirmaElectronica.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.manifest
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.application
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.pdb
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorCabello.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorOjos.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorPiel.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_FirmaElectronica.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Implementos.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DoctosRequeridos.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBaja.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_GradosEscolares.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Frm_BuscarCliente.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_About.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Empleados.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EnviarMensajes.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosAsignar.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosDevoluciones.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosInventario.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginContra.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginEmpresa.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Login.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MENU.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoComplexion.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoDoctoEscolar.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoReferencia.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSangre.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoLicencia.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSenas.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TiposParentescos.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoVivienda.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VerMensajes.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Resources.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.GenerateResource.Cache
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe.manifest
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.application
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosBaja.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Credenciales.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesAutorizacion.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesConsulta.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesDetalle.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosExpedicionCred.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartaAcceso.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartaAcceso.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Credenciales.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesAutorizacion.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesDetalle.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosBaja.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosExpedicionCred.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reporte.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reporte.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartasAccesoConsulta.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.manifest
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.application
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.pdb
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.xml
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\ResolveAssemblyReference.cache
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartasAccesoConsulta.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartaAcceso.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorCabello.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorOjos.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorPiel.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Credenciales.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesAutorizacion.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesConsulta.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesDetalle.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_FirmaElectronica.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Implementos.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DoctosRequeridos.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBaja.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_GradosEscolares.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Frm_BuscarCliente.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_About.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ConsultaTraslados.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Empleados.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EnviarMensajes.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosAsignar.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosDevoluciones.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosInventario.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginContra.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginEmpresa.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Login.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MENU.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosBaja.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosExpedicionCred.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reporte.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoComplexion.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoDoctoEscolar.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoReferencia.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSangre.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoLicencia.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSenas.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TiposParentescos.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoVivienda.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VerMensajes.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Resources.resources
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.GenerateResource.Cache
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe.manifest
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.application
+C:\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\Publico\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\Publico\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\Publico\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\Publico\JNR\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartasAccesoConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\bin\Debug\Interop.NBioBSPCOMLib.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Interop.NBioBSPCOMLib.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.ResolveComReference.cache
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.ResolveComReference.cache
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallas.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Interop.NBioBSPCOMLib.dll
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Interop.NBioBSPCOMLib.dll
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionesConfiguracion.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\idautomation.linearbarcode.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Interop.NBioBSPCOMLib.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.ResolveComReference.cache
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.manifest
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.application
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\idautomation.linearbarcode.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Interop.NBioBSPCOMLib.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\ResolveAssemblyReference.cache
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartasAccesoConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionesConfiguracion.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartaAcceso.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorCabello.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorOjos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorPiel.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Credenciales.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesAutorizacion.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesDetalle.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_FirmaElectronica.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Implementos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DoctosRequeridos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBaja.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_GradosEscolares.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Frm_BuscarCliente.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_About.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ConsultaTraslados.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Empleados.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EnviarMensajes.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosAsignar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosDevoluciones.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosInventario.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginContra.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginEmpresa.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Login.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MENU.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosBaja.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosExpedicionCred.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reporte.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoComplexion.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoDoctoEscolar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoReferencia.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSangre.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoLicencia.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSenas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TiposParentescos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoVivienda.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VerMensajes.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Resources.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.GenerateResource.Cache
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe.manifest
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.application
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\Interop.WIAVIEWLib.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\bin\Debug\AxInterop.WIAVIEWLib.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Interop.WIAVIEWLib.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\Junio2010\25Jun2010\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\AxInterop.WIAVIEWLib.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\bin\Debug\idautomation.linearbarcode.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionesConfiguracion.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Plantilla.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Plantilla.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PlantillaConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PlantillaConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasS.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ActualizacionesConsultar.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ActualizacionesConsultar.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasS.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Mapas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.TrustInfo.xml
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBajasConsulta.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Mapas.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.TrustInfo.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBajasConsulta.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Prospectos.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ProspectosEvaluar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Prospectos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ProspectosEvaluar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Sirc\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ProspectosCatalogo.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.manifest
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.application
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\bin\Debug\idautomation.linearbarcode.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\ResolveAssemblyReference.cache
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ActualizacionesConsultar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartasAccesoConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBajasConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Mapas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionesConfiguracion.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Plantilla.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PlantillaConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasS.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartaAcceso.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Credenciales.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesAutorizacion.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesDetalle.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_FirmaElectronica.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Implementos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DoctosRequeridos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBaja.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_GradosEscolares.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Frm_BuscarCliente.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_About.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Empleados.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EnviarMensajes.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosAsignar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosDevoluciones.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosInventario.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginContra.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginEmpresa.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Login.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MENU.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosBaja.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosExpedicionCred.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reporte.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoComplexion.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoDoctoEscolar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoReferencia.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSangre.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoLicencia.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSenas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TiposParentescos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoVivienda.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VerMensajes.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Resources.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.GenerateResource.Cache
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.TrustInfo.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe.manifest
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.application
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionAlertas.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ProspectosCatalogo.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_UnidadesMedicoFamiliares.resources
+C:\SIAC\Modulo_Reclutamiento\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosListaNegra.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosListaNegra.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_UnidadesMedicoFamiliares.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Interop.NBioBSPCOMLib.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.ResolveComReference.cache
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.manifest
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.application
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\bin\Debug\idautomation.linearbarcode.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\bin\Debug\Interop.NBioBSPCOMLib.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\ResolveAssemblyReference.cache
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosListaNegra.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionAlertas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionAlertasD.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ProspectosCatalogo.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Prospectos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ProspectosEvaluar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_UnidadesMedicoFamiliares.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ActualizacionesConsultar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartasAccesoConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBajasConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Mapas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionesConfiguracion.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Plantilla.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PlantillaConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasS.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartaAcceso.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorCabello.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorOjos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ColorPiel.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Credenciales.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesAutorizacion.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesDetalle.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_FirmaElectronica.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Implementos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DoctosRequeridos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBaja.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_GradosEscolares.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Frm_BuscarCliente.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_About.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Empleados.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EnviarMensajes.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosAsignar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosDevoluciones.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosInventario.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginContra.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginEmpresa.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Login.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MENU.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosBaja.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosExpedicionCred.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reporte.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoComplexion.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoDoctoEscolar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoReferencia.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSangre.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoLicencia.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSenas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TiposParentescos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoVivienda.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VerMensajes.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Resources.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.GenerateResource.Cache
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.TrustInfo.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe.manifest
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.application
+C:\My Documents\SISSA\Nuevo Desarrollo\Respaldos\2011\Enero2011\14Ene2011\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Fotos.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Interop.NBioBSPCOMLib.dll
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.ResolveComReference.cache
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.manifest
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.application
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.pdb
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\bin\Debug\idautomation.linearbarcode.dll
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\bin\Debug\Interop.NBioBSPCOMLib.dll
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosListaNegra.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Fotos.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionAlertas.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionAlertasD.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_UnidadesMedicoFamiliares.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ActualizacionesConsultar.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartasAccesoConsulta.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBajasConsulta.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Mapas.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionesConfiguracion.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Plantilla.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PlantillaConsulta.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallas.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasS.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartaAcceso.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Credenciales.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesAutorizacion.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesConsulta.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesDetalle.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_FirmaElectronica.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Implementos.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DoctosRequeridos.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBaja.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_GradosEscolares.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Frm_BuscarCliente.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_About.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Empleados.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EnviarMensajes.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosAsignar.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosDevoluciones.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosInventario.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginContra.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginEmpresa.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Login.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MENU.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosBaja.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosExpedicionCred.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reporte.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoComplexion.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoDoctoEscolar.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoReferencia.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSangre.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoLicencia.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSenas.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TiposParentescos.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoVivienda.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VerMensajes.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Resources.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.GenerateResource.Cache
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.TrustInfo.xml
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe.manifest
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.application
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisitaDomiciliaria.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisitaDomiciliariaConsulta.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisitaDomiciliaria.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisitaDomiciliariaConsulta.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasConsultar.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasConsultar.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Interop.NBioBSPCOMLib.dll
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.ResolveComReference.cache
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.manifest
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.application
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.pdb
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\bin\Debug\idautomation.linearbarcode.dll
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\bin\Debug\Interop.NBioBSPCOMLib.dll
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosListaNegra.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Fotos.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_IndicadorAltaBajaEmpleados.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionAlertas.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionAlertasD.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ProspectosCatalogo.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Prospectos.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ProspectosEvaluar.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasConsultar.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_UnidadesMedicoFamiliares.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisitaDomiciliaria.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisitaDomiciliariaConsulta.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ActualizacionesConsultar.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartasAccesoConsulta.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBajasConsulta.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Mapas.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionesConfiguracion.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Plantilla.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PlantillaConsulta.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallas.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasS.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartaAcceso.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Credenciales.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesAutorizacion.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesConsulta.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesDetalle.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_FirmaElectronica.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Implementos.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DoctosRequeridos.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBaja.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_GradosEscolares.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Frm_BuscarCliente.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_About.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Empleados.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EnviarMensajes.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosAsignar.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosDevoluciones.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosInventario.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginContra.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginEmpresa.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Login.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MENU.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosBaja.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosExpedicionCred.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reporte.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoComplexion.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoDoctoEscolar.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoReferencia.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSangre.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoLicencia.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSenas.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TiposParentescos.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoVivienda.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VerMensajes.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Resources.resources
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.GenerateResource.Cache
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.TrustInfo.xml
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe.manifest
+C:\SIAC\NUNCIO\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.application
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CargarArchivos.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisorImagenes.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CargarArchivos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisorImagenes.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ModoContacto.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Graficos.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosP.resources
+C:\SIAC\CodigoFuente\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisorGraficas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosP.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Graficos.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ModoContacto.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisorGraficas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_UnidadesReporteFallas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_AlertasConsultas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasI.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosIValidar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PromocionEmpleados.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\bin\Debug\Archivos\frm_Huellero.txt
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\bin\Debug\Archivos\frm_Reloj.txt
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\bin\Debug\Archivos\frm_RelojConsulta.txt
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Ayuda.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ConsultaWeb.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI2.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Huellas.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reloj.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_RelojConsulta.resources
+C:\SIAC\Modulos\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb
+C:\SIAC\Modulo_Reclutamiento\bin\Debug\Archivos\frm_Huellero.txt
+C:\SIAC\Modulo_Reclutamiento\bin\Debug\Archivos\frm_Reloj.txt
+C:\SIAC\Modulo_Reclutamiento\bin\Debug\Archivos\frm_RelojConsulta.txt
+C:\SIAC\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\SIAC\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.manifest
+C:\SIAC\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.application
+C:\SIAC\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.pdb
+C:\SIAC\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\Modulo_Reclutamiento\bin\Debug\idautomation.linearbarcode.dll
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Ayuda.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ConsultaWeb.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI2.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Huellas.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PromocionEmpleados.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_AlertasConsultas.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CargarArchivos.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosIValidar.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosListaNegra.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosP.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Fotos.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Graficos.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ModoContacto.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reloj.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_RelojConsulta.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasConsultar.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasI.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_UnidadesMedicoFamiliares.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_UnidadesReporteFallas.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisitaDomiciliaria.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisitaDomiciliariaConsulta.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisorGraficas.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisorImagenes.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ActualizacionesConsultar.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartasAccesoConsulta.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBajasConsulta.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Mapas.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionesConfiguracion.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Plantilla.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PlantillaConsulta.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallas.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasS.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartaAcceso.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Credenciales.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesAutorizacion.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesConsulta.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesDetalle.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_FirmaElectronica.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Implementos.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DoctosRequeridos.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBaja.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_GradosEscolares.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Frm_BuscarCliente.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_About.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Empleados.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EnviarMensajes.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosAsignar.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosDevoluciones.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosInventario.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginContra.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginEmpresa.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Login.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MENU.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosBaja.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosExpedicionCred.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reporte.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoComplexion.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoDoctoEscolar.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoReferencia.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSangre.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoLicencia.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSenas.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TiposParentescos.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoVivienda.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VerMensajes.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Resources.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.GenerateResource.Cache
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.TrustInfo.xml
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe.manifest
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.application
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DescargarArchivo.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DescargarArchivo.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesActualizar.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Ayuda.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ConsultaWeb.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DescargarArchivo.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI2.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Huellas.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PromocionEmpleados.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_AlertasConsultas.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CargarArchivos.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosIValidar.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosListaNegra.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosP.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Fotos.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Graficos.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ModoContacto.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reloj.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_RelojConsulta.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasConsultar.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasI.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_UnidadesMedicoFamiliares.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_UnidadesReporteFallas.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisitaDomiciliaria.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisitaDomiciliariaConsulta.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisorGraficas.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisorImagenes.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ActualizacionesConsultar.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartasAccesoConsulta.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBajasConsulta.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Mapas.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionesConfiguracion.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Plantilla.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PlantillaConsulta.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallas.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasS.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartaAcceso.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Credenciales.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesAutorizacion.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesConsulta.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesDetalle.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_FirmaElectronica.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Implementos.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DoctosRequeridos.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBaja.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_GradosEscolares.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Frm_BuscarCliente.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_About.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Empleados.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EnviarMensajes.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosAsignar.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosDevoluciones.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosInventario.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginContra.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginEmpresa.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Login.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MENU.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosBaja.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosExpedicionCred.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reporte.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoComplexion.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoDoctoEscolar.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoReferencia.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSangre.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoLicencia.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSenas.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TiposParentescos.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoVivienda.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VerMensajes.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Resources.resources
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.GenerateResource.Cache
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\bin\Debug\Archivos\frm_Huellero.txt
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\bin\Debug\Archivos\frm_Reloj.txt
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\bin\Debug\Archivos\frm_RelojConsulta.txt
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.manifest
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.application
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.pdb
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\bin\Debug\idautomation.linearbarcode.dll
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.TrustInfo.xml
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe.manifest
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.application
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb
+C:\SIAC\SIAC\Modulos\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_RecortarFoto.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesActualizar.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_RecortarFoto.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosporFuera.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosReingresosConsulta.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteGeneral.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosCartas.resources
+C:\SIAC\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_RecortarFoto.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\bin\Debug\Archivos\frm_Huellero.txt
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\bin\Debug\Archivos\frm_Reloj.txt
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\bin\Debug\Archivos\frm_RelojConsulta.txt
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.config
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe.manifest
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.application
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.pdb
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\bin\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\bin\Debug\idautomation.linearbarcode.dll
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.ResolveComReference.cache
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosporFuera.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosReingresosConsulta.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_FirmaConexion.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteGeneral.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Settings.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosCartas.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Ayuda.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ConsultaWeb.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DescargarArchivo.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI2.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Huellas.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PromocionEmpleados.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_AlertasConsultas.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CargarArchivos.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosIValidar.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosListaNegra.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosP.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Fotos.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Graficos.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ModoContacto.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_RecortarFoto.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reloj.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_RelojConsulta.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasConsultar.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasI.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_UnidadesMedicoFamiliares.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_UnidadesReporteFallas.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisitaDomiciliaria.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisitaDomiciliariaConsulta.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisorGraficas.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VisorImagenes.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ActualizacionesConsultar.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartasAccesoConsulta.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBajasConsulta.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosI.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Mapas.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_NotificacionesConfiguracion.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Plantilla.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_PlantillaConsulta.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallas.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ReporteFallasS.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CartaAcceso.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Credenciales.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesAutorizacion.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesConsulta.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_CredencialesDetalle.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_FirmaElectronica.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Implementos.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_DoctosRequeridos.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EmpleadosBaja.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_GradosEscolares.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Frm_BuscarCliente.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_About.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Empleados.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_EnviarMensajes.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosAsignar.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosDevoluciones.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_ImplementosInventario.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginContra.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_LoginEmpresa.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Login.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MENU.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosBaja.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_MotivosExpedicionCred.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_Reporte.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoComplexion.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoDoctoEscolar.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoReferencia.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSangre.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoLicencia.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoSenas.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TiposParentescos.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_TipoVivienda.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.frm_VerMensajes.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.Resources.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.vbproj.GenerateResource.Cache
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.TrustInfo.xml
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe.manifest
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.application
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.exe
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.xml
+C:\SIAC\Siac\Modulos para Generar Instaladores\Modulo_Reclutamiento\obj\Debug\Modulo_Reclutamiento.pdb

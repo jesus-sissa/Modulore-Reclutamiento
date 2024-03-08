@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css" />
+	<style>
+		.imgfirma {
+			/*position: inherit;*/ /* se usa en caso de este div, donde tiene la altura y el ancho definido, sin esto top, right y left no funcionarían */
+			width: 100px;
+			margin-left: 25%
+		}
+
+		.redondo {
+			display: block;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+		}
+
+		.marcaAguaSissa {
+			background-image: url(img/marcaAgua.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: inherit;
+			background-size: contain;
+		}
+
+		.text-right {
+			text-align: right;
+		}
+
+		.left-tittle {
+			text-align: left;
+			padding-left: 14%;
+		}
+
+		.text-left {
+			text-align: left;
+		}
+
+		.text-left-5 {
+			text-align: left;
+			padding-left: 5%;
+		}
+
+		.text-justify {
+			text-align: justify;
+		}
+
+		html {
+			font-size: 14px;
+		}
+
+		.pt-5 {
+			padding-top: 5rem !important;
+			padding-left: 5rem !important;
+			padding-right: 5rem !important;
+		}
+
+		.intEnc {
+			padding-top: 5rem !important;
+		}
+
+		.mt-70 {
+			margin-top: 70px;
+		}
+
+		.mt-60 {
+			margin-top: 60px;
+		}
+
+		.mt-50 {
+			margin-top: 50px;
+		}
+
+		.mt-40 {
+			margin-top: 40px;
+		}
+
+		.mt-30 {
+			margin-top: 30px;
+		}
+
+		.borde {
+			border: .7px solid grey;
+		}
+
+		.logoe {
+			position: absolute;
+			/* width: 100px; */
+			margin-left: .5%;
+			margin-right: .5%;
+			margin-top: .5%;
+			margin-bottom: .5%;
+		}
+		.imgLeft {
+			float: left;
+			border-radius: 40%;
+			margin-left: 10%
+		}
+
+		.imgRight {
+			float: right;
+			border-radius: 40%;
+			margin-right: 10%
+		}
+	</style>
+
+	<script type="text/javascript">
+
+		window.chrome.webview.addEventListener('message', event => {
+			WriteDataFromCsharp(event.data);
+		});
+		function WriteDataFromCsharp(data) {
+
+			candidato = JSON.parse(data);
+
+			document.getElementById('encabezado').setAttribute("src", candidato.FotoEncabezado);
+			document.getElementById('pie').setAttribute("src", candidato.FotoPiePagina);
+			document.getElementById('firmaConcentimiento').setAttribute("src", candidato.Firma);
+			document.getElementById('nombre_Concentimientos').innerText = candidato.Nombre;
+			document.getElementById('fecha').innerText = formatoDocumento(candidato.Fecha).toUpperCase();
+			//huellas dactilares de los pulgares
+			document.getElementById('fingerLeft').setAttribute("src", candidato.Huellas.HuellaI)
+			document.getElementById('fingerRight').setAttribute("src", candidato.Huellas.HuellaD)
+		}
+		function formatoDocumento(fecha_documento) {
+			var fechayhora = new Array()
+			fechayhora = fecha_documento.split(' ');
+			var fecha = new Array()
+			fecha = fechayhora[0].split('/')
+			var dia = fecha[0]
+			var mes = fecha[1]
+			var año = fecha[2]
+
+			return  dia + " de " + gmes(mes) + " del " + año + "."
+		}
+		function gmes(mes) {
+			var _mes = ""
+			switch (mes) {
+				case "01":
+					_mes = "Enero"
+					break;
+				case "02":
+					_mes = "Febrero"
+					break;
+				case "03":
+					_mes = "Marzo"
+					break;
+				case "04":
+					_mes = "Abril"
+					break;
+				case "05":
+					_mes = "Mayo"
+					break;
+				case "06":
+					_mes = "Junio"
+					break;
+				case "07":
+					_mes = "Julio"
+					break;
+				case "08":
+					_mes = "Agosto"
+					break;
+				case "09":
+					_mes = "Septiembre"
+					break;
+				case "10":
+					_mes = "Octubre"
+					break;
+				case "11":
+					_mes = "Noviembre"
+					break;
+				case "12":
+					_mes = "Diciembre"
+					break;
+				default:
+					break;
+			}
+
+			return _mes;
+		}
+		function RequestData() {
+			//function triggered by a button on the html page
+			//alert('post to c#');
+			window.chrome.webview.postMessage('getData');
+		}
+
+	</script>
+</head>
+<body onload="RequestData()">
+	<div class="row">
+		<div class="container pt-5">
+			<div class="row" id="doc5">
+
+				<div class="row ">
+					<img id="encabezado" title="encabezado" width="100%" height="75px" />
+				</div>
+
+			</div>
+			<div class="row text-center mt-70">
+				<h2>Consentimientos</h2>
+				<h6 class="text-left mt-30">FECHA:<span id="fecha"></span>  </h6>
+			</div>
+
+			<div class="marcaAguaSissa row mt-30">
+				<div class="row">
+					<p class="text-justify">
+						Yo, <strong><span id="nombre_Concentimiento"></span></strong> estoy enterado que la empresa realiza nuestro registro ante la Secretaria de Seguridad Pública por ser una empresa registrada y la cuota de registro
+						es de <strong><u>$490</u> pesos</strong>. Si decido retirarme de la empresa en un tiempo menor a 12 meses a partir de mi fecha de ingreso, autorizo que esta cuota se me descuente de mi finiquito;
+						en el caso que cumpla 12 meses o más, no se me descontará nada referente a este concepto.
+					</p>
+				</div>
+				<div class="row mt-30">
+					<p class="text-justify">
+						Declaro también estar enterado de que existe un descuento por nómina denominado <strong>apoyo por defunción</strong> de <strong><u>$20</u> pesos</strong>. Este descuento se aplica a todos los empleados y se acumula para ser
+						entregado al empleado que ha sufrido el fallecimiento de un familiar cercano (Padres, Hijos y Esposo(a)).
+					</p>
+				</div>
+				<div class="row mt-30">
+					<p class="text-justify">
+						Por otra parte, estoy enterado(a) de la realización de la prueba de antidoping en muestra de orina por razones de procedimiento de selección, bajo sospecha y aleatoriamente;
+						y doy mi consentimiento de dicho examen, autorizando al personal de recursos humanos manejen la muestra debidamente etiquetada y sellada.
+					</p>
+				</div>
+				<div class="row mt-30">
+					<p class="text-justify">
+						Declaro haber leído, conocer y comprender los documentos internos de la empresa siendo La Carta de Confidencialidad, Aviso de Privacidad, Contrato Laboral,
+						Descripción de Puesto, Propuesta Laboral, Política de Seguridad, Reglamento Interior de Trabajo, y Política de Uso de las Instalaciones e Inducción a la Empresa.
+					</p>
+				</div>
+			</div>
+
+			<div class=" row mt-60">
+				<div class="col-12">
+					<img id="fingerLeft" width="60px" class="imgLeft" height="80px" />
+					<img id="firmaConcentimiento" class="imgfirma" width="175px" height="80px" />
+					<img id="fingerRight" width="60px" class="imgRight" height="80px" />
+				</div>
+				<div class="row text-center">
+					<p id="nombre_Concentimientos"></p>
+				</div>
+				
+			</div>
+			<div class=" row mt-70">
+				<div class="row">
+					<img id="pie" title="pie" width="100%" height="30px" />
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

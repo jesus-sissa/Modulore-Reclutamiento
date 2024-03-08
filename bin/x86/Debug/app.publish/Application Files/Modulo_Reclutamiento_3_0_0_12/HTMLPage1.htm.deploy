@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+</head>
+<body>
+    <table style="border: solid 1px" >
+        <tr><td colspan="3" align="center"><b>Boletín Informativo</b></td></tr>
+        <tr>
+            <td colspan="3" align="center">Encabezado</td>
+        </tr>
+        <tr>
+            <td colspan="3" ></td>
+        </tr>
+        <tr>
+            <td rowspan="6" style="border:solid 1px">
+                <img  src="009.bmp" alt="" style="width:150px; height:150px"/>
+            </td>
+        </tr>
+        <tr>
+            <td align="right"  style="width:150px">
+                <label><b>Nombre</b>:</label>
+            </td>
+            <td>
+                <a>Nombre</a>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                <b>
+                <label>Departamento:</label></b>
+            </td>
+            <td>
+                <a>Departamento</a>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                <b>
+                <a>Puesto:</a></b>
+            </td>
+            <td>
+                <a>Puesto</a>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                <b>
+                <a>Fecha Baja:</a></b>
+            </td>
+            <td>
+                <a>Fecha Baja</a>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                <b>
+                <a>Fecha Registro:</a></b>
+            </td>
+            <td>
+                <a>Fecha Registro</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"><hr /></td>
+        </tr>
+       <tr>
+            <td colspan="3" align="center">Pie</td>
+        </tr>
+    </table>
+</body>
+</html>

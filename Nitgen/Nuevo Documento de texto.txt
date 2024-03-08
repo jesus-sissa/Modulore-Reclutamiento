@@ -1,0 +1,10 @@
+ Dim m_Opciones As NBioAPI.Type.INIT_INFO_0
+            m_Opciones.VerifyImageQuality = 70
+            m_Opciones.EnrollImageQuality = 70
+            m_Opciones.IdentifyImageQuality = 70
+            m_Opciones.SecurityLevel = 5
+            m_Opciones.DefaultTimeout = 10000
+            m_Opciones.MaxFingersForEnroll = 10
+            m_Opciones.SamplesPerFinger = 2
+            'm_NBioAPI.GetInitInfo(m_Opciones)
+            m_NBioAPI.SetInitInfo(m_Opciones)

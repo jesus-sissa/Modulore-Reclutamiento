@@ -1,0 +1,1780 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css" />
+	<style>
+		.np {
+			display: block !important;
+			margin-block-start: 0em !important;
+			margin-block-end: 0em !important;
+			margin-inline-start: 0px !important;
+			margin-inline-end: 0px !important;
+			color: black;
+			text-align: center;
+			font-size: 16px
+		}
+
+		.pt-2 {
+			padding-top: 2rem !important;
+		}
+
+		.pt-3 {
+			padding-top: 3rem !important;
+		}
+
+		.pt-4 {
+			padding-top: 4rem !important;
+		}
+
+		.pt-5 {
+			padding-top: 5rem !important;
+		}
+
+		.borde-130 {
+			border: .7px solid grey;
+			height: 130px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+
+
+		.borde-70 {
+			border: .7px solid grey;
+			height: 70px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+
+		.borde-60 {
+			border: .7px solid grey;
+			height: 60px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+
+		.borde-50 {
+			border: .7px solid grey;
+			height: 50px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+		/*bordes dobles*/
+		.borde-dd-60 {
+			border: 4px double black;
+			height: 60px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+
+		.borde-dd-50 {
+			border: 4px double black;
+			height: 50px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+
+		.borde-dd-40 {
+			border: 4px double black;
+			height: 40px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+
+		.borde-dd2 {
+			border: 2px double black;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+
+		.padre {
+			position: relative; /* Se usa para que no se salga la imagen de la caja, ya que la imagen tiene position absolute */
+			width: 100%;
+			height: 100%;
+			/*background-color: #ddd;*/
+		}
+
+			.padre img {
+				position: absolute; /* se usa en caso de este div, donde tiene la altura y el ancho definido, sin esto top, right y left no funcionarían */
+				/*width: 100px;*/
+				top: 25%; /* sirve en caso de un div como este, donde tiene una altura definida, en caso de que la altura no este definida esta edición no se pone ; */
+				right: 0; /* se debe usar para que margin 0 auto funcione */
+				left: 0; /* se debe usar para que margin 0 auto funcione */
+				margin: 0 auto; /* Esto lo centra */
+			}
+
+			.padre div {
+				position: absolute; /* se usa en caso de este div, donde tiene la altura y el ancho definido, sin esto top, right y left no funcionarían */
+				/*width: 100px;*/
+				top: 25%; /* sirve en caso de un div como este, donde tiene una altura definida, en caso de que la altura no este definida esta edición no se pone ; */
+				right: 0; /* se debe usar para que margin 0 auto funcione */
+				left: 0; /* se debe usar para que margin 0 auto funcione */
+				margin: 0 auto; /* Esto lo centra */
+			}
+
+		.text-right {
+			text-align: right;
+		}
+
+		.text-left {
+			text-align: left;
+		}
+
+		.text-justify {
+			text-align: justify;
+		}
+
+		.lbl-12 {
+			color: black;
+			font-size: 11px;
+		}
+
+		.lbl-13 {
+			color: black;
+			font-size: 13px;
+		}
+
+		.lbl-14 {
+			color: black;
+			font-size: 14px;
+		}
+
+		.hr {
+			margin: 0px;
+		}
+
+		.form-check-inline {
+			display: inline-block;
+			margin-right: 0px;
+		}
+
+		.form-check-input {
+			width: 1em;
+			height: 1em;
+			margin-top: .25em;
+			vertical-align: top;
+			background-color: #fff;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
+			border: 1px solid rgba(0,0,0,.25);
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			-webkit-print-color-adjust: exact;
+			color-adjust: exact;
+			margin-left: 3px;
+		}
+
+		.under {
+			text-decoration: underline solid cornflowerblue
+		}
+	</style>
+	<script type="text/javascript">
+		window.chrome.webview.addEventListener('message', event => {
+			WriteDataFromCsharp(event.data);
+		});
+
+		function WriteDataFromCsharp(data) {
+
+			cuestionario = JSON.parse(data);
+			document.getElementById('logo').setAttribute("src", cuestionario.FotoLogo);
+			document.getElementById('firma').setAttribute("src", cuestionario.Firma);
+			cuestionarioMed = cuestionario.CuestionarioMedico
+
+			document.getElementById('dia').innerText = formatoDocumento(cuestionarioMed.FechaRegistro, "DD");
+			document.getElementById('mes').innerText = formatoDocumento(cuestionarioMed.FechaRegistro, "MM");
+			document.getElementById('año').innerText = formatoDocumento(cuestionarioMed.FechaRegistro, "AA");
+
+			infopersonal = cuestionario.CuestionarioMedico.Inforpersonal;
+			document.getElementById('nombre').innerText = infopersonal.Nombre;
+			document.getElementById('puesto').innerText = infopersonal.Puesto;
+			document.getElementById('edad').innerText = infopersonal.Edad;
+			asignarCheck(infopersonal.Genero)
+			document.getElementById('ncdia').innerText = formatoDocumento(infopersonal.FechaNacimiento, "DD");
+			document.getElementById('ncmes').innerText = formatoDocumento(infopersonal.FechaNacimiento, "MM");
+			document.getElementById('ncaño').innerText = formatoDocumento(infopersonal.FechaNacimiento, "AA");
+			asignarCheck(infopersonal.EstadoCivil.replace(' ', ''))
+			document.getElementById('lugarNacimiento').innerText = infopersonal.LugarNacimiento;
+			document.getElementById('estadoNacimiento').innerText = infopersonal.EstadoNacimiento;
+			document.getElementById('calle').innerText = infopersonal.Calle;
+			document.getElementById('numero').innerText = infopersonal.Numero;
+			document.getElementById('colonia').innerText = infopersonal.Colonia;
+			document.getElementById('municipio').innerText = infopersonal.Ciudad;
+			document.getElementById('cp').innerText = infopersonal.Cp;
+			document.getElementById('estado').innerText = infopersonal.Estado;
+			document.getElementById('telefono').innerText = infopersonal.Telefono;
+			document.getElementById('celular').innerText = infopersonal.Celular;
+			document.getElementById('numerohijos').innerText = infopersonal.NoHijos;
+			document.getElementById('edadeshijos').innerText = infopersonal.EdadHijos;
+			//estan sanos falta
+			asignarCheck(infopersonal.Complexion);
+
+			document.getElementById('peso').innerText = infopersonal.Peso;
+			document.getElementById('estatura').innerText = infopersonal.Altura;
+
+			antecedente = cuestionario.CuestionarioMedico.AntecedentesMedicos;
+			asignarCheck("lop" + antecedente.UsaLentesoPupilentes);
+			if (antecedente.UsaLentesoPupilentes === "S") {
+				document.getElementById('dialop').innerText = formatoDocumento(antecedente.Desdecuando, "DD");
+				document.getElementById('meslop').innerText = formatoDocumento(antecedente.Desdecuando, "MM");
+				document.getElementById('añolop').innerText = formatoDocumento(antecedente.Desdecuando, "AA");
+
+				if (antecedente.RespuestaLentesPupilentes === "0") {
+					asignarCheck("lop_1")
+				} else {
+					asignarCheck("lop_" + antecedente.RespuestaLentesPupilentes)
+				}
+
+			}
+
+			for (var i = 0; i < antecedente.OpcionesAntecedentesFamiliares.length; i++) {
+				agregarCheck("antecedentesFamiliares", "af", antecedente.OpcionesAntecedentesFamiliares[i]);
+			}
+
+
+			agregarAntecedente("antecedentesmedicos", "ENFERMEDAD CONGENITA O HEREDITARIA (Nacimiento) :", "col-12", "ec", antecedente.EnfermedadCongenita, "N", null, "N", null)
+			agregarhr("antecedentesmedicos")
+			agregarAntecedente("antecedentesmedicos", "DEFORMIDAD CONGENITA (Nacimiento) :", "col-12", "dc", antecedente.DeformidadCongenita, "N", null, "N", null)
+			agregarhr("antecedentesmedicos")
+			agregarAntecedente("antecedentesmedicos", "ENFERMEDADES INFANTILES IMPORTANTES :", "col-12", "ei", antecedente.EnfermedadesInfantiles, "S", "rif", antecedente.OpcionesEnfermedadesInfantiles, "S", antecedente.OtraEnfermedadInfantil)
+			agregarhr("antecedentesmedicos")
+			agregarAntecedente2("antecedentesmedicos", "ALERGIAS :", "col-3", "al", antecedente.Alergias, "S", "col-9", "ral", antecedente.OpcionesAlergias)
+			agregarhr("antecedentesmedicos")
+			agregarAntecedenteT("antecedentesmedicos", "ENFERMEDADES DE LOS OJOS :", "col-12")
+			agregarAntecedente("antecedentesmedicos", "USA USTED LENTES DE CONTACTO :", "col-12", "lc", antecedente.UsaLentesContacto, "S", "rlc", antecedente.OpcionesUsaLentesContacto, "N", null)
+			const antectext = []; const antecresp = [];
+			antectext[0] = "VE USTED BIEN :"; antecresp[0] = antecedente.VeUstedBien;
+			antectext[1] = "OJO IZQUIERDO :"; antecresp[1] = antecedente.OjoIzquierdo;
+			antectext[2] = "OJO DERECHO :"; antecresp[2] = antecedente.OjoDerecho;
+			agregarAntecedente_3col("antecedentesmedicos", "col-4", antectext, antecresp, null)
+			agregarAntecedente("antecedentesmedicos", "CIRUGIA OCULAR :", "col-12", "ode", antecedente.CirugiaOcular, "N", "", null, "N", null)
+			const antetext2 = []; const anteresp2 = [];
+			antetext2[0] = "POR : "; anteresp2[0] = antecedente.PorqueRealizoCirugiaOcular;
+			antetext2[1] = "FECHA : "; anteresp2[1] = antecedente.FechaCirugia;
+			agregarAntecedente_2coltext("antecedentesmedicos", antetext2, anteresp2, "col-6")
+			agregarhr("antecedentesmedicos")
+			agregarAntecedente("antecedentesmedicos", "ENFERMEDAD DE LOS OIDOS :", "col-12", "efo", antecedente.EnfermedadOidos, "N", "", null, "N", null)
+			agregarAntecedenteT("antecedentesmedicos", "CUAL(es) : " + antecedente.CualEnfermedadOidos, "col-12")
+			const antecescucha = []; const respescucha = [];
+			antecescucha[0] = "OYE USTED BIEN :"; respescucha[0] = antecedente.EscuchaUstedBien;
+			antecescucha[1] = "USA APARATO AUDITIVO :"; respescucha[1] = antecedente.UsaAparatoAuditivo;
+			const extra = [];
+			extra[0] = "DESDE : ";
+			extra[1] = antecedente.DesdeCuandoUsaAparatoAuditivo;
+			agregarAntecedente_3col("antecedentesmedicos", "col-4", antecescucha, respescucha, extra)
+			agregarhr("antecedentesmedicos")
+			agregarAntecedente("antecedentesmedicos", "ENFERMEDADES DENTALES :", "col-12", "efd", antecedente.EnfermedadesDentales, "S", "refd", antecedente.OpcionesEnfermedadesDentales, "N", null)
+			agregarhr("antecedentesmedicos")
+			agregarAntecedenteL("antecedentesmedicos", "ENFERMEDADES HORMONALES :", "col-4", "S", "col-8", "refh", antecedente.OpcionesEnfermedadesHormonales, "S", antecedente.OtrasEnfermedadesHormonales)
+			agregarhr("antecedentesmedicos")
+			agregarAntecedente("antecedentesmedicos", "ENFERMEDADES PULMONARES :", "col-12", "efd", antecedente.EnfermedadesPulmonares, "S", "refd", antecedente.OpcionesEnfermedadesPulmonares, "S", antecedente.OtrasEnfermedadesPulmonares)
+			agregarhr("antecedentesmedicos")
+			agregarAntecedente2("antecedentesmedicos", "ALTERACION DE LA PRESION ARTERIAL :", "col-6", "apa", antecedente.AlteracionPresionArterial, "S", "col-6", "rapa", antecedente.OpcionesAlteracionPresionArterial)
+			agregarAntecedenteT("antecedentesmedicos", "MEDICAMENTOS : " + antecedente.MedicamentosAlteracionPresionArterial, "col-12")
+			agregarAntecedente("antecedentesmedicos", "ESTOY EN CONTROL MEDICO :", "col-12", "cmapa", antecedente.ControlMedicoAlteracionPresionArterial, "S", "rcmapa", antecedente.OpcionescontrolMedicoAlteracionPresionArterial, "N", null)
+			agregarhr("antecedentesmedicos")
+			agregarAntecedente("antecedentesmedicos", "ENFERMEDADES DEL CORAZON :", "col-12", "efc", antecedente.EnfermadesCorazon, "S", "refc", antecedente.OpcionesEnfermedadesCorazon, "N", null)
+
+			agregarAntecedente("antecedentesmedicos", "ENFERMEDADES DIGESTIVAS :", "col-12", "cmapa", antecedente.EnfermedadDigestiva, "S", "rcmapa", antecedente.OpcionEnfermedadesDigestivas, "N", null)
+			agregarAntecedente("antecedentesmedicos2", "ENFERMEDADES DEL HIGADO Y/O VIAS BILIARES :", "col-12", "efh", antecedente.EnfermedadHigado, "S", "refh", antecedente.OpcionesEnfermedadesHigado, "N", null)
+			agregarhr("antecedentesmedicos2")
+			agregarAntecedente("antecedentesmedicos2", "DIABETTES MELLITUS/AZUCAR :", "col-12", "efh", antecedente.DiabetesMellitus, "S", "refh", antecedente.OpcionesDiabetesMelitus, "N", null)
+			agregarAntecedenteT("antecedentesmedicos2", "FECHA ULTIMO EXAMEN DE SANGRE : " + antecedente.FechaUltimoExamenSangre, "col-12")
+			agregarAntecedente("antecedentesmedicos2", "ESTOY EN CONTROL MEDICO :", "col-12", "cmdm", antecedente.ControlMedicoDiabetesMelitus, "S", "rcmdm", antecedente.OpcionesControlMedicoDiabetes, "N", null)
+			agregarhr("antecedentesmedicos2")
+			agregarAntecedente("antecedentesmedicos2", "ENFERMEDADES DEL COLESTEROL Y TRIGLICERIDOS :", "col-12", "efct", antecedente.EnfermedadColesterol, "N", "refct", null, "N", null)
+			agregarAntecedenteT("antecedentesmedicos2", "MEDICAMENTOS : " + antecedente.MedicamentosColesterol, "col-12")
+			agregarhr("antecedentesmedicos2")
+			agregarAntecedente("antecedentesmedicos2", "ENFERMEDADES DEL ACIDO URICO :", "col-12", "efau", antecedente.EnfermedadAcidoUrico, "N", "refau", null, "N", null)
+			agregarhr("antecedentesmedicos2")
+			agregarAntecedenteT("antecedentesmedicos2", "MEDICAMENTOS : " + antecedente.MedicamentosAcidoUrico, "col-12")
+			agregarhr("antecedentesmedicos2")
+			agregarAntecedente("antecedentesmedicos2", "ENFERMEDADES DEL RIÑON o UROLOGICAS :", "col-12", "efr", antecedente.EnfermedadRinon, "S", "refr", antecedente.OpcionesRinones, "N", null)
+			agregarhr("antecedentesmedicos2")
+			agregarAntecedente("antecedentesmedicos2", "ENFERMEDADES NEUROLOGICAS :", "col-12", "efr", antecedente.EnfermedadNeurologica, "S", "refr", antecedente.OpcionesEnfermedadNuerologicas, "N", null)
+			agregarhr("antecedentesmedicos2")
+			agregarAntecedente("antecedentesmedicos2", "ENFERMEDADES PSIQUIATRICAS :", "col-12", "efps", antecedente.EnfermedadesPsiquiatricas, "S", "refps", antecedente.OpcionesEnfermedadesPsiquiatricas, "N", null)
+			agregarhr("antecedentesmedicos2")
+			agregarAntecedente("antecedentesmedicos2", "ENFERMEDADES OSTEO/MUSCULARES HUESOS Y/O MUSCULOS :", "col-12", "efr", antecedente.EnfermedadOsteoMuscular, "S", "refr", antecedente.OpcionesEnfermedadesOsteoMuscular, "N", null)
+			agregarhr("antecedentesmedicos2")
+			const enfermtext = []; const enfermresp = [];
+			enfermtext[0] = "ENFERMEDAD DE LA PIEL :"; enfermresp[0] = antecedente.EnfermedadPiel;
+			enfermtext[1] = "ENFERMEDAD DE LA UÑAS :"; enfermresp[1] = antecedente.EnfermedadUñas;
+			enfermtext[2] = "ENFERMEDAD En el PELO :"; enfermresp[2] = antecedente.EnfermedadCabello;
+			agregarAntecedente_3col("antecedentesmedicos2", "col-3", enfermtext, enfermresp, null)
+			agregarhr("antecedentesmedicos2")
+			agregarAntecedente("antecedentesmedicos2", "ENFERMEDADES INFECCIOSAS :", "col-12", "efi", antecedente.EnfermedadesInfecciosas, "S", "refr", antecedente.OpcionesEnfermedadesInfecciosas, "N", null)
+			agregarhr("antecedentesmedicos2")
+			const accidmtext = []; const accidresp = [];
+			accidmtext[0] = "ACCIDENTES DE IMPORTANCIA :"; accidresp[0] = antecedente.AccidentesdeImportancia;
+			accidmtext[1] = "A RECIBIDO UNA TRANSFUSION DE SANGRE :"; accidresp[1] = antecedente.TranfusionDeSangre;
+
+			agregarAntecedente_3col("antecedentesmedicos2", "col-6", accidmtext, accidresp, null)
+
+			agregarAntecedente("antecedentesmedicos2", "TIENE USTED ALGUNA ENFERMEDAD CRONICA :", "col-12", "efcr", antecedente.EnfermedadCronica, "S", "refcr", antecedente.OpcionesEnfermedadCronica, "S", antecedente.OtraEnfermedadCronica)
+			agregarhr("antecedentesmedicos2")
+			agregarAntecedente("antecedentesmedicos2", "HA PADECIDO CANCER Y/O TUMOR MALIGNO :", "col-12", "tas", antecedente.PadecidoCancerTumorMaligno, "N", "rtas", null, "N", null)
+			agregarhr("antecedentesmedicos2")
+			agregarAntecedente2("antecedentesmedicos2", "INGRESO AL HOSPITAL :", "col-4", "ih", antecedente.IngresoHospital, "S", "col-8", "rih", antecedente.OpcionesIngresoHospital)
+			agregarAntecedenteT2("antecedentesmedicos2", "CIRUGIAS REALIZADAS : " + antecedente.CirugiasRealizadas, "col-4", "s", "USTED TIENE ALGUNA SECUELA :", antecedente.TieneSecuela, "col-8")
+			agregarAntecedente("antecedentesmedicos2", "TIENE USTED ALGUN IMPEDIMENTO FISICO Y/O PSICOLOGICO-EMOCIANAL :", "col-12", "tas", antecedente.ImpedimentoFisicoPsicologico, "N", "rtas", null, "N", null)
+			agregarhr("antecedentesmedicos2")
+			agregarAntecedente("antecedentesmedicos2", "TIENE USTED VARICES :", "col-12", "tas", antecedente.TieneVarices, "N", "rtas", null, "N", null)
+
+
+			//habitos
+			//tabaco
+			switch (antecedente.Tabaco) {
+
+				case "1": {
+					document.getElementById('nuncaFumo').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					break;
+				}
+				case "2": {
+					document.getElementById('dejeFumar').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					document.getElementById('fechaDejeFumar').innerHTML = antecedente.FechaDejeFumar;
+					break;
+				}
+				case "3": {
+					document.getElementById('habitualmenteFumo').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					break;
+				}
+				case "4": {
+					document.getElementById('diariamente').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					document.getElementById('diaramenteFumo').innerHTML = antecedente.DiariamenteFumo;
+					break;
+				}
+				case "5": {
+					document.getElementById('semanalmente').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					document.getElementById('semanalmenteFumo').innerHTML = antecedente.SemanalmenteFumo;
+					break;
+				}
+			}
+			//alcohol
+			switch (antecedente.Alcohol) {
+
+				case "1": {
+					document.getElementById('nunca').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					break;
+				}
+				case "2": {
+					document.getElementById('esporadicamente').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					break;
+				}
+				case "3": {
+					document.getElementById('finesSemana').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					break;
+				}
+				case "4": {
+					document.getElementById('cualquierDia').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					break;
+				}
+				case "5": {
+					document.getElementById('finAño').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					break;
+				}
+			}
+
+			switch (antecedente.TipoBebida) {
+
+				case "1": {
+					document.getElementById('cerveza').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					break;
+				}
+				case "2": {
+					document.getElementById('vinos').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					break;
+				}
+				case "3": {
+					document.getElementById('cualquier').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					break;
+				}
+			}
+
+			//drogas
+			switch (antecedente.Drogas) {
+
+				case "1": {
+					document.getElementById('dnunca').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					break;
+				}
+				case "2": {
+					document.getElementById('desporadicamente').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					document.getElementById('tipoDrogas').innerHTML = antecedente.TipoDrogras;
+					break;
+				}
+				case "3": {
+					document.getElementById('dcualquier').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					document.getElementById('tipoDrogas').innerHTML = antecedente.TipoDrogras;
+					break;
+				}
+				case "4": {
+					document.getElementById('ddejeconsumir').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					document.getElementById('fechaDejeConsumir').innerHTML = antecedente.FechaDejeDrogas;
+					document.getElementById('tipoDrogas').innerHTML = antecedente.TipoDrogras;
+					break;
+				}
+				case "5": {
+					document.getElementById('dsoloprobe').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					document.getElementById('tipoDrogas').innerHTML = antecedente.TipoDrogras;
+					break;
+				}
+			}
+
+			//deportes
+			switch (antecedente.DeportesActividadFisica) {
+
+				case "1": {
+					document.getElementById('dpnunca').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					break;
+				}
+				case "2": {
+					document.getElementById('dpOcasionalmente').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					document.getElementById('tipoEjercicio').innerHTML = antecedente.TipoEjercicio;
+					document.getElementById('TiempoDedicado').innerHTML = antecedente.TipoDrogras;
+					break;
+				}
+				case "3": {
+					document.getElementById('dpFinesSemana').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					document.getElementById('tipoEjercicio').innerHTML = antecedente.TipoEjercicio;
+					document.getElementById('TiempoDedicado').innerHTML = antecedente.TipoDrogras;
+					break;
+				}
+				case "4": {
+					document.getElementById('dpDiariamente').setAttribute('style', 'text-decoration:line-through solid 1px cornflowerblue;font-weight: bold;');
+					document.getElementById('tipoEjercicio').innerHTML = antecedente.TipoEjercicio;
+					document.getElementById('TiempoDedicado').innerHTML = antecedente.TipoDrogras;
+					break;
+				}
+			}
+
+			//USO DE MEDICAMENTOS
+			if (antecedente.UsoMedicamentos === "S") {
+				asignarCheck("MS")
+				document.getElementById('nombreMedicamento').innerHTML = antecedente.NombreMedicamento;
+				document.getElementById('usado').innerHTML = antecedente.MedicamentoUsadoPara;
+			} else {
+				asignarCheck("MN")
+			}
+
+			for (var i = 0; i < antecedente.OpcionesUsoMedicamentos.length; i++) {
+				agregarCheck("opcionesMedicamentos", "om", antecedente.OpcionesUsoMedicamentos[i]);
+			}
+
+			document.getElementById('horasSueño').innerHTML = antecedente.HorasSuenoDia;
+
+			if (antecedente.OtrosTrabajos === "S") {
+				asignarCheck("OTS")
+				document.getElementById('donde').innerHTML = antecedente.DondeRealizaOtrosTrabajos;
+				document.getElementById('queHace').innerHTML = antecedente.QueHaceEnOtrosTrabajos;
+				document.getElementById('desdeCuando').innerHTML = antecedente.FechaDesdeQueRealizaOtrosTrabajos;
+			} else {
+				asignarCheck("OTN")
+			}
+
+			if (antecedente.RealizaTareasDomesticas === "S") { asignarCheck("TS") } else { asignarCheck("TN") }
+
+			ginecologico = cuestionario.CuestionarioMedico.AntecedentesGinecologicos;
+			//solo si es mujer
+			document.getElementById('embarazos').innerHTML = ginecologico.Embarazos;
+			document.getElementById('partos').innerHTML = ginecologico.Nacimientos;
+			document.getElementById('cesarias').innerHTML = ginecologico.Cesarias;
+			document.getElementById('abortos').innerHTML = ginecologico.Abortos;
+			document.getElementById('fechaNacHijos').innerHTML = ginecologico.FechasNacimientoHijos;
+
+			if (ginecologico.IrregularidaddesMenstruales === "S") { asignarCheck("IRS") } else { asignarCheck("IRN") }
+			if (ginecologico.Infecciones === "S") { asignarCheck("IFS") } else { asignarCheck("IFN") }
+			if (ginecologico.Quistes === "S") { asignarCheck("QSS") } else { asignarCheck("QSN") }
+			if (ginecologico.Esterilidad === "S") { asignarCheck("OPS") } else { asignarCheck("OPN") }
+			if (ginecologico.Otrosproblemas === "S") { asignarCheck("ESS") } else { asignarCheck("ESN") }
+			document.getElementById('fechaNacHijos').innerHTML = ginecologico.Cualesproblemas;
+
+			if (ginecologico.RevisionGinecologica === "S") {
+				asignarCheck("RGS")
+				document.getElementById('fechaRevisionMedica').innerHTML = ginecologico.UltimaFechaRevisionmedica;
+			}
+			else { asignarCheck("RGN") }
+
+			agregarAntecedenteL("revision", "LUGAR :", "col-2", "S", "col-10", "rl", ginecologico.Lugares, "N", null)
+			agregarAntecedenteL("revision", "FECHA DEL ULTIMO EXAMEN DE DETECCION CANCER :" + ginecologico.UltimaFechaExamenDetecCancer, "col-8", "S", "col-4", "rl", ginecologico.RespuestaUltimaFechaExamenCancer, "N", null)
+			if (ginecologico.MetodoAnticonceptivo === "S") {
+				asignarCheck("MAS")
+				document.getElementById('metodoAnticonceptivo').innerHTML = ginecologico.CualMetodoAnticonceptivo;
+			}
+			else { asignarCheck("MAN") }
+
+			agregarAntecedenteL("menstruacion", "ULTIMA FECHA DE MENSTRUACION :" + ginecologico.UltimaFechaMenstruacion, "col-8", "S", "col-4", "rl", ginecologico.RespuestaUltimaFechaMenstruacion, "N", null)
+
+			if (ginecologico.EstaEmbarazada === "S") {
+				asignarCheck("EMS")
+				document.getElementById('fechaProbable').innerHTML = ginecologico.FechaParto;
+			} else { asignarCheck("EMS") }
+
+			if (ginecologico.SospechaEmbarazo === "S") { asignarCheck("SOPS") } else { asignarCheck("SOPS") }
+
+			//final del documento
+			document.getElementById('nombreCompleto').innerText = infopersonal.Nombre;
+
+		}
+
+
+		function agregarAntecedente(contenedor, textoantecedente, colcss, id, antecedenteresp, masrespuestas, idresp, respuestas, otrares, otrarespuesta) {
+			var row = document.createElement('div');
+			row.className = "row"
+			row.setAttribute('style', 'margin-bottom:5px')
+			var col = document.createElement('div')
+			col.className = colcss
+
+			var formcheck = document.createElement('div')
+			formcheck.className = "form-check-inline"
+
+			var labeltext = document.createElement('label');
+			labeltext.className = "lbl-13"
+			labeltext.innerHTML = textoantecedente
+			formcheck.append(labeltext)
+
+			var checksi = document.createElement('input');
+			checksi.setAttribute('type', 'checkbox');
+			checksi.setAttribute('id', id + 'S');
+			checksi.setAttribute('name', id + 'S');
+			checksi.className = "form-check-input";
+			if (antecedenteresp === "S") {
+				checksi.setAttribute('checked', 'checked')
+			}
+			formcheck.append(checksi)
+
+			var labelsi = document.createElement('label');
+			labelsi.className = "form-check-label lbl-12";
+			labelsi.setAttribute('for', id + 'S');
+			labelsi.innerHTML = " SI";
+			formcheck.append(labelsi)
+			//------------------------------------------------
+			var checkno = document.createElement('input');
+			checkno.setAttribute('type', 'checkbox');
+			checkno.setAttribute('id', id + 'N');
+			checkno.setAttribute('name', id + 'N');
+			checkno.className = "form-check-input";
+			if (antecedenteresp === "N") {
+				checkno.setAttribute('checked', 'checked')
+			}
+			formcheck.append(checkno)
+
+			var labelno = document.createElement('label');
+			labelno.className = "form-check-label lbl-12";
+			labelno.setAttribute('for', id + 'N');
+			labelno.innerHTML = " NO";
+			formcheck.append(labelno)
+
+			col.append(formcheck)
+
+			if (masrespuestas === "S") {
+
+				var colresp = document.createElement('div')
+				colresp.className = "col-12"
+				colresp.setAttribute('id', "mr_" + id)
+
+				for (var i = 0; i < respuestas.length; i++) {
+
+
+					var check = document.createElement('input');
+					check.setAttribute('type', 'checkbox');
+					check.setAttribute('id', idresp + respuestas[i].Value);
+					check.setAttribute('name', idresp + respuestas[i].Value);
+					check.className = "form-check-input";
+					if (respuestas[i].Selected) {
+						check.setAttribute('checked', 'checked')
+					}
+
+					colresp.append(check)
+
+					var label = document.createElement('label');
+					label.className = "form-check-label lbl-12";
+					label.setAttribute('for', idresp + respuestas[i].Value);
+					label.innerHTML = respuestas[i].Text;
+					colresp.append(label);
+
+
+				}
+
+				col.append(colresp)
+
+
+
+			}
+
+			if (otrares === "S") {
+				var colotra = document.createElement('div')
+				colotra.className = "col-12"
+
+				var lblotra = document.createElement('div')
+				lblotra.className = "lbl-13"
+				lblotra.innerHTML = "OTRAS:"
+
+				var span = document.createElement('span')
+				span.innerHTML = otrarespuesta
+
+				lblotra.append(span)
+
+				colotra.append(lblotra)
+				col.append(colotra)
+			}
+
+
+			row.append(col)
+
+			document.getElementById(contenedor).append(row)
+
+		}
+
+		function agregarAntecedente2(contenedor, textoantecedente, csscol, id, antecedenteresp, masrespuestas, csscol2, idresp, respuestas) {
+			var row = document.createElement('div');
+			row.className = "row"
+			row.setAttribute('style', 'margin-bottom:5px')
+			var col = document.createElement('div')
+			col.className = csscol
+
+			var formcheck = document.createElement('div')
+			formcheck.className = "form-check-inline"
+
+			var labeltext = document.createElement('label');
+			labeltext.className = "lbl-13"
+			labeltext.innerHTML = textoantecedente
+			formcheck.append(labeltext)
+
+			var checksi = document.createElement('input');
+			checksi.setAttribute('type', 'checkbox');
+			checksi.setAttribute('id', id + 'S');
+			checksi.setAttribute('name', id + 'S');
+			checksi.className = "form-check-input";
+			if (antecedenteresp === "S") {
+				checksi.setAttribute('checked', 'checked')
+			}
+			formcheck.append(checksi)
+
+			var labelsi = document.createElement('label');
+			labelsi.className = "form-check-label lbl-12";
+			labelsi.setAttribute('for', id + 'S');
+			labelsi.innerHTML = " SI";
+			formcheck.append(labelsi)
+			//------------------------------------------------
+			var checkno = document.createElement('input');
+			checkno.setAttribute('type', 'checkbox');
+			checkno.setAttribute('id', id + 'N');
+			checkno.setAttribute('name', id + 'N');
+			checkno.className = "form-check-input";
+			if (antecedenteresp === "N") {
+				checkno.setAttribute('checked', 'checked')
+			}
+			formcheck.append(checkno)
+
+			var labelno = document.createElement('label');
+			labelno.className = "form-check-label lbl-12";
+			labelno.setAttribute('for', id + 'N');
+			labelno.innerHTML = " NO";
+			formcheck.append(labelno)
+
+			col.append(formcheck)
+
+			row.append(col)
+
+			if (masrespuestas === "S") {
+
+				var colresp = document.createElement('div')
+				colresp.className = csscol2
+				colresp.setAttribute('id', "mr_" + id)
+
+				for (var i = 0; i < respuestas.length; i++) {
+
+
+					var check = document.createElement('input');
+					check.setAttribute('type', 'checkbox');
+					check.setAttribute('id', idresp + respuestas[i].Value);
+					check.setAttribute('name', idresp + respuestas[i].Value);
+					check.className = "form-check-input";
+					if (respuestas[i].Selected) {
+						check.setAttribute('checked', 'checked')
+					}
+
+					colresp.append(check)
+
+					var label = document.createElement('label');
+					label.className = "form-check-label lbl-12";
+					label.setAttribute('for', idresp + respuestas[i].Value);
+					label.innerHTML = respuestas[i].Text;
+					colresp.append(label);
+
+
+				}
+
+				row.append(colresp)
+
+			}
+
+
+			document.getElementById(contenedor).append(row)
+
+		}
+
+		function agregarAntecedente_3col(contenedor, csscol, textoantecedentes, antecedentesresp, extra) {
+			var row = document.createElement('div');
+			row.className = "row"
+			row.setAttribute('style', 'margin-bottom:5px')
+
+
+			for (var i = 0; i < textoantecedentes.length; i++) {
+				var col = document.createElement('div')
+				col.className = csscol
+				var formcheck = document.createElement('div')
+				formcheck.className = "form-check-inline"
+
+				var labeltext = document.createElement('label');
+				labeltext.className = "lbl-12"
+				labeltext.innerHTML = textoantecedentes[i]
+				formcheck.append(labeltext)
+
+				var checksi = document.createElement('input');
+				checksi.setAttribute('type', 'checkbox');
+				checksi.setAttribute('id', i + 'S');
+				checksi.setAttribute('name', i + 'S');
+				checksi.className = "form-check-input";
+				if (antecedentesresp[i] === "S") {
+					checksi.setAttribute('checked', 'checked')
+				}
+				formcheck.append(checksi)
+
+				var labelsi = document.createElement('label');
+				labelsi.className = "form-check-label lbl-12";
+				labelsi.setAttribute('for', i + 'S');
+				labelsi.innerHTML = " SI";
+				formcheck.append(labelsi)
+				//------------------------------------------------
+				var checkno = document.createElement('input');
+				checkno.setAttribute('type', 'checkbox');
+				checkno.setAttribute('id', i + 'N');
+				checkno.setAttribute('name', i + 'N');
+				checkno.className = "form-check-input";
+				if (antecedentesresp[i] === "N") {
+					checkno.setAttribute('checked', 'checked')
+				}
+				formcheck.append(checkno)
+
+				var labelno = document.createElement('label');
+				labelno.className = "form-check-label lbl-12";
+				labelno.setAttribute('for', i + 'N');
+				labelno.innerHTML = " NO";
+				formcheck.append(labelno)
+
+				col.append(formcheck)
+				row.append(col)
+			}
+
+			if (extra !== null) {
+				if (extra.length > 0) {
+					var divex = document.createElement('div');
+					divex.className = csscol
+					var lblex = document.createElement('label');
+					lblex.className = 'lbl-12'
+					lblex.innerHTML = extra[0];
+					var span = document.createElement('span')
+					span.innerHTML = extra[1]
+					lblex.appendChild(span)
+					divex.appendChild(lblex)
+					row.append(divex)
+				}
+
+			}
+
+			document.getElementById(contenedor).append(row)
+
+		}
+
+		function agregarAntecedente_2coltext(contenedor, textoantecedentes, antecedentesresp, colcss) {
+			var row = document.createElement('div');
+			row.className = "row"
+			row.setAttribute('style', 'margin-bottom:5px')
+
+			for (var i = 0; i < textoantecedentes.length; i++) {
+				var col = document.createElement('div')
+				col.className = colcss
+				var lbl = document.createElement('label')
+				lbl.className = "lbl-12"
+				lbl.innerHTML = textoantecedentes[i]
+				var span = document.createElement('span')
+				span.innerHTML = antecedentesresp[i]
+
+				lbl.append(span)
+
+				col.append(lbl)
+				row.append(col)
+			}
+
+			document.getElementById(contenedor).append(row)
+
+		}
+
+		function agregarAntecedenteL(contenedor, textoantecedente, colcss, masrespuestas, respcss, idresp, respuestas, otrares, otrarespuesta) {
+			var row = document.createElement('div');
+			row.className = "row"
+			row.setAttribute('style', 'margin-bottom:5px')
+			var col = document.createElement('div')
+			col.className = colcss
+
+			var formcheck = document.createElement('div')
+			formcheck.className = "form-check-inline"
+
+			var labeltext = document.createElement('label');
+			labeltext.className = "lbl-12"
+			labeltext.innerHTML = textoantecedente
+			formcheck.append(labeltext)
+
+			col.append(formcheck)
+			row.append(col)
+
+			if (masrespuestas === "S") {
+
+				var colresp = document.createElement('div')
+				colresp.className = respcss
+				colresp.setAttribute('id', "mr_" + idresp)
+
+				for (var i = 0; i < respuestas.length; i++) {
+
+					var check = document.createElement('input');
+					check.setAttribute('type', 'checkbox');
+					check.setAttribute('id', idresp + respuestas[i].Value);
+					check.setAttribute('name', idresp + respuestas[i].Value);
+					check.className = "form-check-input";
+					if (respuestas[i].Selected) {
+						check.setAttribute('checked', 'checked')
+					}
+
+					colresp.append(check)
+
+					var label = document.createElement('label');
+					label.className = "form-check-label lbl-12";
+					label.setAttribute('for', idresp + respuestas[i].Value);
+					label.innerHTML = respuestas[i].Text;
+					colresp.append(label);
+
+				}
+
+				row.append(colresp)
+			}
+
+			if (otrares === "S") {
+				var colotra = document.createElement('div')
+				colotra.className = "col-12"
+
+				var lblotra = document.createElement('div')
+				lblotra.className = "lbl-12"
+				lblotra.innerHTML = "OTRAS:"
+
+				var span = document.createElement('span')
+				span.innerHTML = otrarespuesta
+
+				lblotra.append(span)
+
+				colotra.append(lblotra)
+				row.append(colotra)
+			}
+
+			document.getElementById(contenedor).append(row)
+
+		}
+
+		function agregarAntecedenteT(contenedor, textoantecedente, colcss) {
+			var row = document.createElement('div');
+			row.className = "row"
+			row.setAttribute('style', 'margin-bottom:5px')
+			var col = document.createElement('div')
+			col.className += colcss
+
+			var formcheck = document.createElement('div')
+			formcheck.className = "form-check-inline"
+
+			var labeltext = document.createElement('label');
+			labeltext.className = "lbl-12"
+			labeltext.innerHTML = textoantecedente
+			formcheck.appendChild(labeltext)
+
+			col.append(formcheck)
+
+			row.append(col)
+
+			document.getElementById(contenedor).append(row)
+
+		}
+
+		function agregarAntecedenteT2(contenedor, textoantecedente, colcss, id, checktext, checkresp, checkcss) {
+			var row = document.createElement('div');
+			row.className = "row"
+			row.setAttribute('style', 'margin-bottom:5px')
+			var col = document.createElement('div')
+			col.className += colcss
+
+			var formcheck = document.createElement('div')
+			formcheck.className = "form-check-inline"
+
+			var labeltext = document.createElement('label');
+			labeltext.className = "lbl-12"
+			labeltext.innerHTML = textoantecedente
+			formcheck.appendChild(labeltext)
+
+			col.append(formcheck)
+
+			var col2 = document.createElement('div')
+			col2.className += checkcss
+
+			var formcheck2 = document.createElement('div')
+			formcheck2.className = "form-check-inline"
+
+			var labeltext2 = document.createElement('label');
+			labeltext2.className = "lbl-13"
+			labeltext2.innerHTML = checktext
+			formcheck2.append(labeltext2)
+
+			var checksi = document.createElement('input');
+			checksi.setAttribute('type', 'checkbox');
+			checksi.setAttribute('id', id + 'S');
+			checksi.setAttribute('name', id + 'S');
+			checksi.className = "form-check-input";
+			if (checkresp === "S") {
+				checksi.setAttribute('checked', 'checked')
+			}
+			formcheck2.append(checksi)
+
+			var labelsi = document.createElement('label');
+			labelsi.className = "form-check-label lbl-12";
+			labelsi.setAttribute('for', id + 'S');
+			labelsi.innerHTML = " SI";
+			formcheck2.append(labelsi)
+			//------------------------------------------------
+			var checkno = document.createElement('input');
+			checkno.setAttribute('type', 'checkbox');
+			checkno.setAttribute('id', id + 'N');
+			checkno.setAttribute('name', id + 'N');
+			checkno.className = "form-check-input";
+			if (checkresp === "N") {
+				checkno.setAttribute('checked', 'checked')
+			}
+			formcheck2.append(checkno)
+
+			var labelno = document.createElement('label');
+			labelno.className = "form-check-label lbl-12";
+			labelno.setAttribute('for', id + 'N');
+			labelno.innerHTML = " NO";
+			formcheck2.append(labelno)
+
+			col2.append(formcheck)
+
+			row.append(col2)
+
+			row.append(col)
+
+			document.getElementById(contenedor).append(row)
+
+		}
+
+		function agregarCheck(element, id, antecedente) {
+			var check = document.createElement('input');
+			check.setAttribute('type', 'checkbox');
+			check.setAttribute('id', id + '_' + antecedente.Value);
+			check.setAttribute('name', id + '_' + antecedente.Value);
+			check.className = "form-check-input";
+			if (antecedente.Selected) {
+				check.setAttribute('checked', 'checked')
+			}
+
+			document.getElementById(element).append(check)
+
+			var label = document.createElement('label');
+			label.className = "form-check-label lbl-12";
+			label.setAttribute('for', id + '_' + antecedente.Val);
+			label.innerHTML = antecedente.Text;
+			document.getElementById(element).append(label);
+		}
+
+		function asignarCheck(id) {
+			document.getElementById(id).setAttribute("checked", "checked");
+		}
+		function agregarhr(contenedor) {
+			var hr = document.createElement('hr')
+			hr.className = "hr"
+			document.getElementById(contenedor).append(hr)
+		}
+
+		function formatoDocumento(fecha_documento, pos) {
+			var fechayhora = new Array()
+			fechayhora = fecha_documento.split('/');
+			var dia = fechayhora[0]
+			var mes = fechayhora[1]
+			var año = fechayhora[2]
+
+			if (pos === "DD") {
+				return dia;
+			} else if (pos === "MM") {
+				switch (mes) {
+					case "01": { return "ENE"; }
+					case "02": { return "FEB"; }
+					case "03": { return "MAR"; }
+					case "04": { return "ABR"; }
+					case "05": { return "MAY"; }
+					case "06": { return "JUN"; }
+					case "07": { return "JUL"; }
+					case "08": { return "AGO"; }
+					case "09": { return "SEP"; }
+					case "10": { return "OCT"; }
+					case "11": { return "NOV"; }
+					case "12": { return "DIC"; }
+				}
+
+			} else if (pos === "AA") {
+				return año
+			} else {
+				return fecha_documento
+			}
+
+
+		}
+
+		function RequestData() {
+			//function triggered by a button on the html page
+			//alert('post to c#');
+			window.chrome.webview.postMessage('getData');
+		}
+
+	</script>
+</head>
+<body onload="RequestData()">
+	<div class="container pt-2">
+		<div class="row">
+			<div class="col-3">
+				<div class="padre">
+					<img id="logo" width="60px" height="70px" title="logo">
+				</div>
+
+			</div>
+			<div class="col-6">
+				<div class="padre">
+					<div class="col-12">
+						<p style="color: black;text-align: left;font-size: 15px;padding-top: .5rem;">
+							SERVICIO INTEGRAL DE SEGURIDAD, S.A. DE C.V.
+						</p>
+					</div>
+
+				</div>
+				<div class="col-12" style="margin-top: 1%;">
+					<p style="color: black;text-align: left;font-size: 14px;">
+						CUESTIONARIO MEDICO
+					</p>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="padre">
+					<div class="col-10 borde-70 text-center">
+						<p class="np">FO-RHU-04</p>
+						<p class="np">Ver. 01-01/2019</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row" style="margin-top: 70px; margin-bottom:80px">
+			<div class="col-5">
+				<div class="padre">
+					<div class="col-8 borde-dd-50 text-center" style="background-color: yellow">
+						<p class="lbl-12">
+							FAVOR DE <strong><u>NO</u></strong> ESCRIBIR EN LOS RECUADROS
+						</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-7">
+				<div class="padre">
+					<div class="col-11 borde-dd-50 text-center" style="background-color:cornflowerblue">
+						<p class="lbl-12"><strong>FAVOR DE LEER Y CONTESTAR CON TINTA EL CUESTIONARIO EN FORMA COMPLETA Y DETENIDAMENTE</strong></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 text-right">
+				<label class="lbl-13">
+					FECHA: DIA  <u><span id="dia"></span></u>
+					MES  <u><span id="mes"></span></u>
+					AÑO  <u><span id="año"></span></u>
+				</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 text-right">
+				<label class="lbl-13">
+					PUESTO A DESARROLLAR: <u><span id="puesto"></span></u>
+				</label>
+			</div>
+		</div>
+		<hr class="hr" />
+		<div class="row" style="margin-top:20px; margin-bottom:10px;">
+			<div class="col-6">
+				<label class="lbl-13">NOMBRE: <u><span id="nombre"></span></u></label>
+			</div>
+			<div class="col-6">
+				<label class="lbl-13">ESCOLARIDAD: <u><span id="nombre"></span></u></label>
+			</div>
+		</div>
+
+		<div class="row" style="margin-bottom:10px">
+			<div class="col-4">
+				<div class="form-check-inline">
+					<label class="lbl-13">GENERO:</label>
+					<input type="checkbox" id="M" name="M" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="M">HOMBRE</label>
+					<input type="checkbox" id="F" name="F" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="F">MUJER</label>
+				</div>
+			</div>
+			<div class="col-3 text-center">
+				<label class="lbl-13">EDAD: <u><span id="edad"></span></u></label>
+			</div>
+			<div class="col-5 text-justify">
+				<label class="lbl-13">
+					FECHA DE NACI: DIA  <u><span id="ncdia"></span></u>
+					MES  <u><span id="ncmes"></span></u>
+					AÑO  <u><span id="ncaño"></span></u>
+				</label>
+			</div>
+
+		</div>
+
+		<div class="row" style="margin-bottom:10px">
+			<div class="col-12">
+				<div class="form-check-inline">
+					<label class="lbl-13">ESTADO CIVIL:</label>
+					<input type="checkbox" id="SOLTERO" name="SOLTERO" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="SOLTERO">SOLTERO</label>
+					<input type="checkbox" id="CASADO" name="CASADO" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="CASADO">CASADO</label>
+					<input type="checkbox" id="VIUDO" name="VIUDO" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="VIUDO">VIUDO</label>
+					<input type="checkbox" id="UNIONLIBRE" name="UNIONLIBRE" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="UNIONLIBRE">UNION LIBRE</label>
+					<input type="checkbox" id="DIVORSIADO" name="DIVORSIADO" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="DIVORSIADO">DIVORSIADO</label>
+					<input type="checkbox" id="SEPARADO" name="SEPARADO" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="SEPARADO">SEPARADO</label>
+				</div>
+			</div>
+		</div>
+		<hr class="hr" />
+		<div class="row" style="margin-bottom:10px">
+			<div class="col-7">
+				<label class="lbl-13">LUGAR DE NACIMIENTO: <u><span id="lugarNacimiento"></span></u></label>
+			</div>
+			<div class="col-5">
+				<label class="lbl-13">ESTADO: <u><span id="estadoNacimiento"></span></u></label>
+			</div>
+		</div>
+		<hr class="hr" />
+		<div class="row" style="margin-bottom:10px">
+			<label class="lbl-13">DOMICILIO ACTUAL</label>
+		</div>
+		<div class="row" style="margin-bottom:10px">
+			<div class="col-4">
+				<label class="lbl-13">CALLE: <u><span id="calle"></span></u></label>
+			</div>
+			<div class="col-3">
+				<label class="lbl-13">NUMERO: <u><span id="numero"></span></u></label>
+			</div>
+			<div class="col-5">
+				<label class="lbl-13">COL: <u><span id="colonia"></span></u></label>
+			</div>
+		</div>
+		<div class="row" style="margin-bottom:10px">
+			<div class="col-4">
+				<label class="lbl-13">MUNICIPIO: <u><span id="municipio"></span></u></label>
+			</div>
+			<div class="col-3">
+				<label class="lbl-13">CP: <u><span id="cp"></span></u></label>
+			</div>
+			<div class="col-5">
+				<label class="lbl-13">ESTADO: <u><span id="estado"></span></u></label>
+			</div>
+		</div>
+		<div class="row" style="margin-bottom:10px">
+			<div class="col-6">
+				<label class="lbl-13">TELEFONO FIJO: <u><span id="telefono"></span></u></label>
+			</div>
+			<div class="col-6">
+				<label class="lbl-13">TELEFONO CELULAR: <u><span id="celular"></span></u></label>
+			</div>
+		</div>
+		<div class="row" style="margin-bottom:10px">
+			<div class="col-4">
+				<label class="lbl-13">NUMERO HIJOS: <u><span id="numerohijos"></span></u></label>
+			</div>
+			<div class="col-4">
+				<label class="lbl-13">EDADES HIJOS: <u><span id="edadeshijos"></span></u></label>
+			</div>
+
+		</div>
+		<hr class="hr" />
+		<div class="row" style="margin-bottom:10px" style="margin-bottom:10px">
+			<div class="col-12">
+				<div class="form-check-inline">
+					<label class="lbl-13">COMLPLEXION :</label>
+					<input type="checkbox" id="1" name="1" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="1">DELGADA</label>
+					<input type="checkbox" id="2" name="2" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="2">REGULAR</label>
+					<input type="checkbox" id="3" name="3" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="3">ROBUSTA</label>
+					<input type="checkbox" id="4" name="4" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="4">ATLETICA</label>
+					<input type="checkbox" id="5" name="5" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="5">OBESA</label>
+				</div>
+			</div>
+		</div>
+		<hr class="hr" />
+		<div class="row borde-60" style="margin-bottom:10px;background-color:yellow">
+			<div class="col-3">
+				<label class="lbl-13">PESO: <u><span id="peso"></span></u>KG</label>
+			</div>
+			<div class="col-3">
+				<label class="lbl-13">ESTATURA:<u><span id="estatura"></span></u>mts</label>
+			</div>
+			<div class="col-3">
+				<label class="lbl-13">PRESION ARTERIAL: <u><span id="presionArterial"></span></u>mmhg</label>
+			</div>
+			<div class="col-3">
+				<label class="lbl-13">GLUCOSA:<u><span id="glucosa"></span></u></label>
+			</div>
+
+		</div>
+
+		<div class="row borde-130" style="margin-bottom:10px;background-color:yellow">
+			<div class="col-12 text-center">
+				<div class="form-check-inline">
+					<label class="lbl-13">IMC :</label>
+					<input type="checkbox" id="1" name="1" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="1">BAJO</label>
+					<input type="checkbox" id="2" name="2" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="2">NORMAL</label>
+					<input type="checkbox" id="3" name="3" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="3">SOPREPESO</label>
+					<input type="checkbox" id="4" name="4" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="4">ATLETICA</label>
+					<input type="checkbox" id="5" name="5" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="5">OBESO G1</label>
+					<input type="checkbox" id="6" name="6" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="6">OBESO G2</label>
+					<input type="checkbox" id="7" name="7" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="7">OBESO G3</label>
+				</div>
+			</div>
+			<div class="col-12" style="margin-top:-45px">
+				<label class="lbl-13">OBSERVACIONES:<u><span id="observaciones"></span></u></label>
+			</div>
+		</div>
+		<div class="row" style="margin-bottom:10px">
+			<div class="col-6">
+				<div class="form-check-inline">
+					<label class="lbl-13">USO LENTES O PUPILENTES :</label>
+					<input type="checkbox" id="lopS" name="lopS" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="lopS">SI</label>
+					<input type="checkbox" id="lopN" name="lopN" class="form-check-input" />
+					<label class="form-check-label lbl-13" for="lopN">NO</label>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="col-12 text-right">
+					<label class="lbl-13">
+						DESDE: DIA  <u><span id="dialop"></span></u>
+						MES  <u><span id="meslop"></span></u>
+						AÑO  <u><span id="añolop"></span></u>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="margin-bottom:10px;">
+			<div class="col-12">
+				<div class="form-check-inline">
+					<input type="checkbox" id="lop_1" name="lop_1" class="form-check-input" />
+					<label class="form-check-label lbl-12" for="lop_1">SOLO USO PARA LEER Y ESCRIBIR</label>
+					<input type="checkbox" id="lop_2" name="lop_2" class="form-check-input" />
+					<label class="form-check-label lbl-12" for="lop_2">USO TODO EL DIA</label>
+					<input type="checkbox" id="lop_3" name="lop_3" class="form-check-input" />
+					<label class="form-check-label lbl-12" for="lop_3">USO LENTES BIFOCALES</label>
+					<input type="checkbox" id="lop_4" name="lop_4" class="form-check-input" />
+					<label class="form-check-label lbl-12" for="lop_4">SE ME DAÑARON NO USO</label>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row borde-70">
+			<div class="col-12">
+				<label class="lbl-13"><strong>ANTECEDENTES FAMILIARES(ABUELOS, PADRE, MADRE HERMANOS/AS)</strong>   <u>SELECCIONA LA QUE CORRESPONDA</u> </label>
+			</div>
+			<div class="col-12 text-justify">
+				<div class="form-check-inline" id="antecedentesFamiliares"></div>
+			</div>
+		</div>
+
+
+	</div>
+
+	<div class="container pt-5">
+		<div class="row">
+			<div class="col-12">
+				<div class="padre">
+					<div class="col-5 borde-dd-40 text-center" style="background-color: cornflowerblue">
+						<p class="lbl-12">
+							ANTECEDENTES MEDICOS PERSONALES
+						</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="antecedentesmedicos" style="margin-top:60px"></div>
+	<div class="container" id="antecedentesmedicos2" style="padding-top:90px"></div>
+	<div class="container" id="antecedentesmedicos3" style="padding-top:70px"></div>
+	<div class="container" id="tabaco">
+		<div class="row">
+			<hr class="hr" />
+			<label class="lbl-12"><strong>HABITOS</strong></label>
+		</div>
+		<hr class="hr" />
+		<div class="row">
+			<div class="col-12"><label class="lbl-12">TABACO</label></div>
+			<div class="row">
+				<div class="col-4">
+					<label class="lbl-12" id="nuncaFumo">NUNCA HE FUMADO </label>
+				</div>
+				<div class="col-4">
+					<label class="lbl-12" id="dejeFumar">DEJE DE FUMAR(FECHA):<span id="fechaDejeFumar"></span></label>
+				</div>
+				<div class="col-4">
+					<label class="lbl-12" id="habitualmenteFumo"> HABITUALMENTE FUMO</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-4">
+					<label class="lbl-12" id="diariamente">DIARIAMENTE FUMO : <span id="diaramenteFumo"></span></label>
+				</div>
+				<div class="col-4">
+					<label class="lbl-12" id="semanalmente">SEMANALMENTE FUMO : <span id="semanalmenteFumo"></span></label>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<hr class="hr" />
+		<div class="row">
+			<div class="col-12"><label class="lbl-12"><strong>ALCOHOL</strong></label></div>
+			<hr class="hr" />
+			<div class="row">
+				<div class="col-2">
+					<label class="lbl-12" id="nunca">NUNCA</label>
+				</div>
+				<div class="col-2">
+					<label class="lbl-12" id="esporadicamente">ESPORADICAMENTE</label>
+				</div>
+				<div class="col-2">
+					<label class="lbl-12" id="finesSemana">FINES DE SEMANA</label>
+				</div>
+				<div class="col-2">
+					<label class="lbl-12" id="cualquierDia">CUALQUIER DIA</label>
+				</div>
+				<div class="col-4">
+					<label class="lbl-12" id="finAño">2 O 3 VECES AL AÑO/FIN DE AÑO</label>
+				</div>
+			</div>
+			<div class="col-12">
+				<div class="row">
+					<div class="col-3"><label class="lbl-12">Tipo Bebida</label></div>
+					<div class="col-3">
+						<label class="lbl-12" id="cerveza">CERVEZA</label>
+					</div>
+					<div class="col-3">
+						<label class="lbl-12" id="vinos">VINOS Y LICORES</label>
+					</div>
+					<div class="col-3">
+						<label class="lbl-12" id="cualquier">CUALQUIER BEBIDA</label>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="container">
+		<hr class="hr" />
+		<div class="row">
+			<div class="col-12"><label class="lbl-12"><strong>DROGAS</strong></label></div>
+			<hr class="hr" />
+			<div class="row">
+				<div class="col-1"><label id="dnunca" class="lbl-12">NUNCA</label></div>
+				<div class="col-2"><label id="desporadicamente" class="lbl-12">ESPORADICAMENTE</label></div>
+				<div class="col-2"><label id="dcualquier" class="lbl-12">CUALQUIER DIA</label></div>
+				<div class="col-4"><label id="ddejeconsumir" class="lbl-12">DEJE DE CONSUMIR :<span id="fechaDejeConsumir"></span></label> </div>
+				<div class="col-3"><label id="dsoloprobe" class="lbl-12">SOLO PROCE HACE AÑOS ATRAS</label></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12"><label class="lbl-12">TIPO DROGAS : <span id="tipoDrogas" class="lbl-12"></span></label></div>
+		</div>
+	</div>
+	<div class="container" style="margin-bottom:15px">
+		<hr class="hr" />
+		<div class="row">
+			<div class="col-12"><label class="lbl-12"><strong>DEPORTES / ACTIVIDAD FISICA</strong></label></div>
+			<hr class="hr" />
+			<div class="row">
+				<div class="col-3">
+					<label class="lbl-12" id="dpnunca">NUNCA</label>
+				</div>
+				<div class="col-3">
+					<label class="lbl-12" id="dpOcasionalmente">OCASINALMENTE 2 O 3 VECES POR SEMANA</label>
+				</div>
+				<div class="col-3">
+					<label class="lbl-12" id="dpFinesSemana">FINES DE SEMANA</label>
+				</div>
+				<div class="col-3">
+					<label class="lbl-12" id="dpDiariamente ">DIARIAMENTE</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6"><label class="lbl-12">TIPO EJERCICIO <span id="tipoEjercicio"></span></label></div>
+				<div class="col-6"><label class="lbl-12">TIEMPO DEDICADO <span id="tiempoDedicado"></span></label></div>
+			</div>
+
+			<div class="row">
+				<div class="col-5">
+					<div class="form-check-inline">
+						<label class="lbl-13">USO DE MEDICAMENTOS:</label>
+						<input type="checkbox" id="MS" name="MS" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="MS">SI</label>
+						<input type="checkbox" id="MN" name="MN" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="MN">NO</label>
+					</div>
+				</div>
+				<div class="col-7" id="opcionesMedicamentos"></div>
+				<div class="col-12"><label class="lbl-12" id="nombreMedicamento">NOMBRE MEDICAMENTO :</label></div>
+				<div class="col-12"><label class="lbl-12" id="usado">USADO PARA :</label></div>
+			</div>
+			<hr class="hr" />
+			<div class="row">
+				<div class="col-4"><label class="lbl-12">HORAS DE SUEÑO</label></div>
+				<div class="col-4"><label class="lbl-12">TENGO <span id="horasSueño"></span> HORAS DE SUEÑO AL DIA</label></div>
+			</div>
+			<hr class="hr" />
+			<div class="row">
+				<div class="col-12">
+					<div class="form-check-inline">
+						<label class="lbl-13">OTROS TRABAJOS A DESEMPEÑAR:</label>
+						<input type="checkbox" id="OTS" name="OTS" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="OTS">SI</label>
+						<input type="checkbox" id="OTN" name="OTN" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="OTN">NO</label>
+					</div>
+				</div>
+				<div class="col-5"><label class="lbl-12">EN DONDE : <span id="donde"></span></label></div>
+				<div class="col-5"><label class="lbl-12">QUE HACE : <span id="queHace"></span></label></div>
+				<div class="col-2"><label class="lbl-12">DESDE : <span id="desdeCuando"></span></label></div>
+
+
+			</div>
+			<hr class="hr" />
+			<div class="row">
+				<div class="col-12">
+					<div class="form-check-inline">
+						<label class="lbl-13">REALIZA TAREAS DEL HOGAR:</label>
+						<input type="checkbox" id="TS" name="TS" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="TS">SI</label>
+						<input type="checkbox" id="TN" name="TN" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="TN">NO</label>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="container borde-dd2">
+		<div class="row" style="margin-top:-20px">
+			<div class="col-12">
+				<div class="padre">
+					<div class="col-5 borde-dd-40 text-center" style="background-color: cornflowerblue">
+						<p class="lbl-12">
+							**CONTESTE LO SIGUIENTE SOLO SI ES MUJER**
+						</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" style="margin-top:40px">
+			<div class="row">
+				<div class="col-3"><label class="lbl-12"> ANTECEDENTES GINECOLOGICOS:</label></div>
+				<div class="col-2"><label class="lbl-12">EMBARAZOS : <span id="embarazos" class="lbl-12"></span></label></div>
+				<div class="col-2"><label class="lbl-12">PARTOS : <span id="partos" class="lbl-12"></span></label></div>
+				<div class="col-2"><label class="lbl-12">CESARIAS : <span id="cesarias" class="lbl-12"></span></label></div>
+				<div class="col-2"><label class="lbl-12">ABORTOS : <span id="abortos" class="lbl-12"></span></label></div>
+			</div>
+			<div class="row"><label class="lbl-12">FECHAS/AÑO DE NACIMIENTOS DE HIJOS : <span id="fechaNacHijos" class="lbl-12"></span></label></div>
+			<hr class="hr" />
+			<div class="row">
+				<div class="col-5">
+					<div class="form-check-inline">
+						<label class="lbl-12">IRREGULARIDAD MENSTRUAL:</label>
+						<input type="checkbox" id="IRS" name="IRS" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="IRS">SI</label>
+						<input type="checkbox" id="IRN" name="IRN" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="IRN">NO</label>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="form-check-inline">
+						<label class="lbl-12">INFECCIONES:</label>
+						<input type="checkbox" id="IFS" name="IFS" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="IFS">SI</label>
+						<input type="checkbox" id="IFN" name="IFN" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="IFN">NO</label>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="form-check-inline">
+						<label class="lbl-12">QUISTES:</label>
+						<input type="checkbox" id="QSS" name="QSS" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="QSS">SI</label>
+						<input type="checkbox" id="QSN" name="QSN" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="QSN">NO</label>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-4">
+					<div class="form-check-inline">
+						<label class="lbl-12">OTROS PROBLEMAS:</label>
+						<input type="checkbox" id="OPS" name="OPS" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="OPS">SI</label>
+						<input type="checkbox" id="OPN" name="OPN" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="OPN">NO</label>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="form-check-inline">
+						<label class="lbl-12">ESTERILIDAD:</label>
+						<input type="checkbox" id="ESS" name="ESS" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="ESS">SI</label>
+						<input type="checkbox" id="ESN" name="ESN" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="ESN">NO</label>
+					</div>
+				</div>
+				<div class="col-12">
+					<label class="lbl-12">CUALES : <span id="gineOtrosProblemas" class="lbl-12"></span></label>
+				</div>
+			</div>
+			<div class="row" id="gine3">
+				<div class="col-12"><label class="lbl-12">PROBLEMAS DE SENOS O GLANDULAS MAMARIAS</label></div>
+				<div class="row">
+					<div class="col-4">
+						<div class="form-check-inline">
+							<label class="lbl-12">BULTO EN SENO:</label>
+							<input type="checkbox" id="NOS" name="NOS" class="form-check-input" />
+							<label class="form-check-label lbl-13" for="NOS">SI</label>
+							<input type="checkbox" id="NON" name="NON" class="form-check-input" />
+							<label class="form-check-label lbl-13" for="NON">NO</label>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="form-check-inline">
+							<label class="lbl-12">QUISTES EN SENO:</label>
+							<input type="checkbox" id="QTS" name="QTS" class="form-check-input" />
+							<label class="form-check-label lbl-13" for="QTS">SI</label>
+							<input type="checkbox" id="QTN" name="QTN" class="form-check-input" />
+							<label class="form-check-label lbl-13" for="QTN">NO</label>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="form-check-inline">
+							<label class="lbl-12">SECRECION:</label>
+							<input type="checkbox" id="SCS" name="SCS" class="form-check-input" />
+							<label class="form-check-label lbl-13" for="SCS">SI</label>
+							<input type="checkbox" id="SCN" name="SCN" class="form-check-input" />
+							<label class="form-check-label lbl-13" for="SCN">NO</label>
+						</div>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<div class="form-check-inline">
+							<label class="lbl-12">OTROS PROBLEMAS:</label>
+							<input type="checkbox" id="OPNS" name="OPNS" class="form-check-input" />
+							<label class="form-check-label lbl-13" for="OPNS">SI</label>
+							<input type="checkbox" id="OPNN" name="OPNN" class="form-check-input" />
+							<label class="form-check-label lbl-13" for="OPNN">NO</label>
+						</div>
+					</div>
+					<div class="col-8"><label class="lbl-12">CUALES : <span id="senoOtrosProblemas" class="lbl-12"></span></label></div>
+				</div>
+			</div>
+			<div class="row" id="revision">
+				<div class="col-12">
+					<div class="form-check-inline">
+						<label class="lbl-12">REVISIONES GINECOLOGICAS:</label>
+						<input type="checkbox" id="RGS" name="RGS" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="RGS">SI</label>
+						<input type="checkbox" id="RGN" name="RGN" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="RGN">NO</label>
+					</div>
+				</div>
+				<div class="col-12"><label class="lbl-12">FECHA ULTIMA REVISION MEDICA : <span id="fechaRevisionMedica" class="lbl-12"></span></label></div>
+				<div class="col-12" id="lugar"></div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<div class="form-check-inline">
+						<label class="lbl-12">USA ALGUN METODO ANTICONCEPTIVO:</label>
+						<input type="checkbox" id="MAS" name="MAS" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="MAS">SI</label>
+						<input type="checkbox" id="MAN" name="MAN" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="MAN">NO</label>
+					</div>
+				</div>
+				<div class="col-6">
+					<label class="lbl-12">CUAL : <span id="metodoAnticonceptivo" class="lbl-12"></span></label>
+				</div>
+			</div>
+			<div class="row" id="menstruacion"></div>
+			<div class="row">
+				<div class="col-5">
+					<div class="form-check-inline">
+						<label class="lbl-12">ESTA USTED EMBARAZADA:</label>
+						<input type="checkbox" id="EMS" name="EMS" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="EMS">SI</label>
+						<input type="checkbox" id="EMN" name="EMN" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="EMN">NO</label>
+					</div>
+				</div>
+				<div class="col-7">
+					<label class="lbl-12">FECHA PROBABLE DE PARTO : <span id="fechaProbable" class="lbl-12"></span></label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="form-check-inline">
+						<label class="lbl-12">TIENE SOSPECHA DE ESTAR EMBARAZADA:</label>
+						<input type="checkbox" id="SOPS" name="SOPS" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="SOPS">SI</label>
+						<input type="checkbox" id="EMN" name="SOPN" class="form-check-input" />
+						<label class="form-check-label lbl-13" for="SOPN">NO</label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="container" style="padding-top:60px">
+		<div class="row borde-dd2" style="background-color: cornflowerblue">
+			<div class="col-12">
+				<label class="lbl-12">AVISO IMPORTANTE</label>
+			</div>
+			<div class="col-12">
+				<label class="lbl-12">
+					1) DECLARO HABER CONSTESTADO CON HONESTIDAD Y VERDAD A LAS PREGUNTAS EFECTUADAS Y NO OCULTAR
+					NINGUNA ENFERMEDAD O ALTERACION FISICA O MENTAL QUE HUBIERA PADECIDO O PADECIESE EN LA ACTUALIDAD
+				</label>
+				<br />
+				<label class="lbl-12">
+					2) MANIFIESTO A DEMAS, NO CONSUMIR ALGUN TIPO DE DROGA Y/O ENERVANTE
+				</label>
+				<br />
+				<label class="lbl-12">
+					3) AUTORIZO A LA EMPRESA  Y ESTOY EN ACUERDO , REALIZARME CUALQUIER TIPO DE EXAMEN MEDICO, DE GABINETE Y DE LABORATORIO,
+					QUE SEA NECESARIO PARA EL CUMPLIMIENTO DE REGLAMENTOS Y POLITICAS CUANDO ASI SE REQUIERA
+				</label>
+				<br />
+				<label class="lbl-12">
+					4) ACEPTO QUE, EN CASO DE OMISION O NEGACION DE INFORMACION  SOBRE MI PERSONA, ES MOTICO DE TERMINACION INMEDIATA DE CONTRATO LABORAL
+					O DESVINCULACION DE LA EMPRESA
+				</label>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<label class="col-12">INFORMACION ADICIONAL :</label>
+			</div>
+			<div class="col-4">
+				<label class="col-12">FECHA :<span dir="fechaGeneral"></span></label>
+			</div>
+			<div class="col-4">
+				<label class="lbl-12">ANTIDOPING :<span id="antidoping"></span></label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="padre">
+					<div class="col-5 text-center">
+						<label class="lbl-12">NOMBRE COMPLETO :<span id="nombreCompleto"></span></label>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" style="margin-top: 20px; margin-bottom: 110px;">
+			<div class="col-12">
+				<div class="padre">
+					<div class="col-5 text-center" style="background-color: cornflowerblue">
+						<img id="firma" width="80px" height="80px" />
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row borde-dd2">
+			<div class="col-12"><label class="lbl-12">SERVICIO MEDICO : <span id="servicioMedico"></span></label></div>
+			<div class="row">
+				<div class="col-4"><button class="btn">NO, APTO</button> </div>
+				<div class="col-4"><button class="btn">NO, CONCLUYENTE</button> </div>
+				<div class="col-4"><button class="btn">APTO</button> </div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12"><label class="lbl-12">OBSERVACIONES</label></div>
+			<div class="col-12"><label id="observacionesGenerales" class="lbl-12"></label></div>
+		</div>
+
+
+	</div>
+
+
+</body>
+</html>
+<!--<div class="row">
+	<div class="col-6"></div>
+	<div class="col-6"></div>
+</div>-->
+<!--<div class="form-check-inline">
+	<label class="lbl-13">:</label>
+	<input type="checkbox" id="S" name="S" class="form-check-input" />
+	<label class="form-check-label lbl-13" for="S">SI</label>
+	<input type="checkbox" id="N" name="N" class="form-check-input" />
+	<label class="form-check-label lbl-13" for="N">NO</label>
+</div>-->

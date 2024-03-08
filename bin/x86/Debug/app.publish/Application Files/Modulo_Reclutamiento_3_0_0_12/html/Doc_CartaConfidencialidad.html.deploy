@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css"/>
+	<style>
+		.imgfirma {
+			/*position: inherit;*/ /* se usa en caso de este div, donde tiene la altura y el ancho definido, sin esto top, right y left no funcionarían */
+			width: 100px;
+			margin-left:25%
+		}
+
+		.redondo {
+			display: block;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+		}
+
+		.marcaAguaSissa {
+			background-image: url(img/marcaAgua.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: inherit;
+			background-size: contain;
+		}
+
+		.text-right {
+			text-align: right;
+		}
+
+		.left-tittle {
+			text-align: left;
+			padding-left: 14%;
+		}
+
+		.text-left {
+			text-align: left;
+		}
+
+		.text-left-5 {
+			text-align: left;
+			padding-left: 5%;
+		}
+
+		.text-justify {
+			text-align: justify;
+		}
+
+		html {
+			font-size: 14px;
+		}
+		.pt-5 {
+			padding-top: 5rem !important;
+			padding-left: 5rem !important;
+			padding-right: 5rem !important;
+		}
+		.mt-70 {
+			margin-top :70px;
+		}
+		.mt-30 {
+			margin-top:30px;
+		}
+		.mt-40 {
+			margin-top:40px;
+		}
+		.imgLeft {
+			float: left;
+			border-radius: 40%;
+			margin-left: 10%
+		}
+
+		.imgRight {
+			float: right;
+			border-radius: 40%;
+			margin-right: 10%
+		}
+	</style>
+
+	<script type="text/javascript">
+
+		window.chrome.webview.addEventListener('message', event => {
+			WriteDataFromCsharp(event.data);
+		});
+		function WriteDataFromCsharp(data) {
+			candidato = JSON.parse(data);
+
+			document.getElementById('encabezado').setAttribute("src", candidato.FotoEncabezado);
+			document.getElementById('pie').setAttribute("src", candidato.FotoPiePagina);
+			document.getElementById('firmaCartaCandidato').setAttribute("src", candidato.Firma);
+			document.getElementById('nombre_Carta_Conv').innerText = candidato.Nombre;
+			document.getElementById('nombre_Carta_Conf').innerText = candidato.Nombre;
+			document.getElementById('fecha').innerText = formatoDocumento(candidato.Fecha).toUpperCase();
+			//huellas dactilares de los pulgares
+			document.getElementById('fingerLeft').setAttribute("src", candidato.Huellas.HuellaI)
+			document.getElementById('fingerRight').setAttribute("src", candidato.Huellas.HuellaD)
+			
+		}
+		function formatoDocumento(fecha_documento) {
+			var fechayhora = new Array()
+			fechayhora = fecha_documento.split(' ');
+			var fecha = new Array()
+			fecha = fechayhora[0].split('/')
+			var dia = fecha[0]
+			var mes = fecha[1]
+			var año = fecha[2]
+
+			return dia + " de " + gmes(mes) + " del " + año + "."
+		}
+
+		function gmes(mes) {
+			var _mes = ""
+			switch (mes) {
+				case "01":
+					_mes = "Enero"
+					break;
+				case "02":
+					_mes = "Febrero"
+					break;
+				case "03":
+					_mes = "Marzo"
+					break;
+				case "04":
+					_mes = "Abril"
+					break;
+				case "05":
+					_mes = "Mayo"
+					break;
+				case "06":
+					_mes = "Junio"
+					break;
+				case "07":
+					_mes = "Julio"
+					break;
+				case "08":
+					_mes = "Agosto"
+					break;
+				case "09":
+					_mes = "Septiembre"
+					break;
+				case "10":
+					_mes = "Octubre"
+					break;
+				case "11":
+					_mes = "Noviembre"
+					break;
+				case "12":
+					_mes = "Diciembre"
+					break;
+				default:
+					break;
+			}
+
+			return _mes;
+		}
+		function RequestData() {
+			//function triggered by a button on the html page
+			//alert('post to c#');
+			window.chrome.webview.postMessage('getData');
+		}
+
+	</script>
+</head>
+<body onload="RequestData()">
+	<div class="row">
+		<div class="container pt-5">
+			<div class="row" id="doc2">
+
+				<div class="row ">
+					<img id="encabezado" width="100%" height="75px" title="cabeza" />
+				</div>
+
+			</div>
+			<div class="row text-center mt-70">
+				<h2><u>CARTA DE CONFIDENCIALIDAD</u></h2>
+			</div>
+			<div class="marcaAguaSissa row mt-40">
+
+				<div class="row text-left">
+					<p> Para: <strong><span id="nombre_Carta_Conv"></span></strong> </p>
+					<p>De: Lic. Enrique Villanueva Hernandez </p>
+					<p>Fecha :<span id="fecha"></span> </p>
+					<p>Asunto: Manejo de Información Confidencial</p>
+				</div>
+
+				<div class="row mt-30">
+					<p class="text-justify">
+						Por medio de la presente le informo que de acuerdo a la posición que ocupa en nuestra empresa es necesario que entienda los parámetros de <strong>DISCRECIONALIDAD</strong>
+						establecidos en la ley y sus implicaciones.
+					</p>
+				</div>
+				<div class="row mt-30">
+					<p class="text-justify">
+						En los términos de la Fracc. XIII del artículo 134 de la Ley Federal del Trabajo <strong>EL EMPLEADO</strong> se obliga a guardar escrupulosamente los secretos técnicos de mercado y
+						de fabricación, de los productos que en forma directa o indirecta manufacture o comercialice <strong> LA EMPRESA</strong>, así como cualquier otra cosa confidencial relacionada con la operación o
+						administración de la misma tales como <strong>(SUELDOS, SALARIOS, PRESTACIONES, BONOS, ENTRE OTRAS)</strong> y a las que haya tenido acceso el empleado por razón de su trabajo.
+						Como consecuencia de lo anterior de manera enunciativa y no limitativa, <strong>EL EMPLEADO</strong> se obliga a no divulgar o comunicar, ni en forma directa o indirecta, a persona alguna,
+						cualquier información respecto a las actividades antes mencionadas. Las obligaciones a que se refiere la presente cláusula deberán ser estrictamente cumplidas por <strong>EL EMPLEADO</strong>,
+						durante todo el tiempo en que subsista la relación laboral entre las partes y por un periodo de dos años subsecuentes a la fecha de terminación de la misma.
+					</p>
+				</div>
+				<div class="row mt-30">
+					<p class="text-justify">
+						Las <strong>SANCIONES</strong> en las que incurre <strong>EL EMPLEADO</strong> en caso de incumplimiento de las obligaciones que a su cargo establece la cláusula anterior, <strong>LA EMPRESA</strong> podrá sin responsabilidad alguna,
+						dar por terminada la relación de trabajo que los une. <strong>EL EMPLEADO</strong> será responsable civilmente en caso de incurrir en la violación por daños y perjuicios que a <strong>LA EMPRESA</strong> se causen
+						independientemente de las penalidades en la ley de la propiedad Industrial y su Reglamento en el Código Penal del Estado de Nuevo León.
+					</p>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<img id="fingerLeft" width="60px" class="imgLeft" height="80px" />
+					<img id="firmaCartaCandidato" class="imgfirma" width="175px" height="80px" title="firma" />
+					<img id="fingerRight" width="60px" class="imgRight" height="80px" />
+				</div>
+				<div class="col-12">
+					<p class="text-center" id="nombre_Carta_Conf"></p>
+				</div>
+				
+			</div>
+			<div class=" row">
+				<div class="col-12">
+					<img id="pie" width="100%" height="30px" title="pie" />
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

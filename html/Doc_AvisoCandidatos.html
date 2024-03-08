@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css"/>
+	<style>
+		.imgfirma {
+			/*position: inherit;*/ /* se usa en caso de este div, donde tiene la altura y el ancho definido, sin esto top, right y left no funcionarían */
+			width: 100px;
+			margin-left: 25%
+		}
+
+		.redondo {
+			display: block;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+		}
+
+		.marcaAguaSissa {
+			background-image: url(img/marcaAgua.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: inherit;
+			background-size: contain;
+		}
+
+		.text-right {
+			text-align: right;
+		}
+
+		.left-tittle {
+			text-align: left;
+			padding-left: 24%;
+		}
+
+		.text-left {
+			text-align: left;
+		}
+
+		.text-left-5 {
+			text-align: left;
+			padding-left: 5%;
+		}
+
+		.text-justify {
+			text-align: justify;
+		}
+
+		html {
+			font-size: 11.5px;
+		}
+
+		.pt-5 {
+			padding-top: 2rem !important;
+			padding-left: 4rem !important;
+			padding-right: 4rem !important;
+		}
+
+		.intEnc {
+			padding-top: 5rem !important;
+		}
+		.pt-70 {
+		padding-top:70px;
+		}
+		.pt-130 {
+			padding-top: 130px;
+		}
+		
+		.borde {
+			border: .7px solid grey;
+		}
+
+		.logoe {
+			position: absolute;
+			/* width: 100px; */
+			margin-left: .5%;
+			margin-right: .5%;
+			margin-top: .5%;
+			margin-bottom: .5%;
+		}
+		
+		.intEnc {
+			padding-top: 5rem !important;
+		}
+
+		.pt-70 {
+			padding-top: 70px;
+		}
+
+		.pt-130 {
+			padding-top: 130px;
+		}
+
+		.mt-70 {
+			margin-top: 70px;
+		}
+
+		.mt-60 {
+			margin-top: 60px;
+		}
+
+		.mt-50 {
+			margin-top: 50px;
+		}
+
+		.mt-40 {
+			margin-top: 40px;
+		}
+
+		.mt-30 {
+			margin-top: 30px;
+		}
+
+		.mt-20 {
+			margin-top: 20px;
+		}
+		.mt-10 {
+			margin-top: 10px;
+		}
+		.mt-n10 {
+			margin-top:-10px;
+		}
+
+		.text-center {
+			text-align: center;
+		}
+		.imgLeft {
+			float: left;
+			border-radius: 40%;
+			margin-left :10%
+		}
+
+		.imgRight {
+			float: right;
+			border-radius: 40%;
+			margin-right: 10%
+		}
+	</style>
+	<script type="text/javascript">
+
+		window.chrome.webview.addEventListener('message', event => {
+			WriteDataFromCsharp(event.data);
+		});
+		function WriteDataFromCsharp(data) {
+
+			candidato = JSON.parse(data);
+
+			document.getElementById('encabezado').setAttribute("src", candidato.FotoEncabezado);
+			document.getElementById('pie').setAttribute("src", candidato.FotoPiePagina);
+			document.getElementById('firma_AvisoCandidato').setAttribute("src", candidato.Firma);
+			document.getElementById('AvNombre_Prospecto').innerText = candidato.Nombre;
+			
+			document.getElementById('fecha').innerText = formatoDocumento(candidato.Fecha);
+			//huellas dactilares de los pulgares
+			document.getElementById('fingerLeft').setAttribute("src", candidato.Huellas.HuellaI)
+			document.getElementById('fingerRight').setAttribute("src", candidato.Huellas.HuellaD)
+		}
+
+		function formatoDocumento(fecha_documento)
+		{
+			var fechayhora = new Array()
+			fechayhora = fecha_documento.split(' ');
+			var fecha = new Array()
+			fecha= fechayhora[0].split('/')
+			var dia = fecha[0]
+			var mes = fecha[1]
+			var año = fecha[2]
+
+			return "Monterrey, Nuevo León a " + dia + " de " + gmes(mes) +" del "+año+"."
+		}
+		function gmes(mes)
+		{
+			var _mes =""
+			switch (mes)
+			{
+				case "01":
+					_mes ="Enero"
+					break;
+				case "02":
+					_mes = "Febrero"
+					break;
+				case "03":
+					_mes = "Marzo"
+					break;
+				case "04":
+					_mes = "Abril"
+					break;
+				case "05":
+					_mes = "Mayo"
+					break;
+				case "06":
+					_mes = "Junio"
+					break;
+				case "07":
+					_mes = "Julio"
+					break;
+				case "08":
+					_mes = "Agosto"
+					break;
+				case "09":
+					_mes = "Septiembre"
+					break;
+				case "10":
+					_mes = "Octubre"
+					break;
+				case "11":
+					_mes = "Noviembre"
+					break;
+				case "12":
+					_mes = "Diciembre"
+					break;
+				default:
+					break;
+			}
+
+			return _mes;
+		}
+		function RequestData() {
+			//function triggered by a button on the html page
+			//alert('post to c#');
+			window.chrome.webview.postMessage('getData');
+		}
+
+	</script>
+</head>
+<body onload="RequestData()">
+
+	<div class="row">
+		<div class="container pt-5">
+			<div class=" row text-center" id="doc1">
+
+				<div class="col-12">
+					<img id="encabezado" width="80%" height="40px" title="encabezado" />
+					<h6 class="left-tittle">AVISO DE PRIVACIDAD PARA CANDIDATOS</h6>
+					
+				</div>
+
+			</div>
+			<div class="row text-right mt-10">
+				<span id="fecha"></span>
+			</div>
+			<div class="row  mt-10">
+				<p style="text-align:justify">
+					<strong>Servicio Integral de Seguridad, S.A. de C.V.</strong> es una empresa legalmente constituida de conformidad con las leyes mexicanas, con
+					domicilio en <strong>Juan Álvarez #209, Col. Centro, Monterrey C.P. 64000</strong> representada por C. Enrique Villanueva Hernández, en su carácter
+					de Apoderada Legal de la sociedad y como responsable de sus datos personales,<u>hace de su conocimiento</u> que la información de nuestro
+					personal es tratada de forma estrictamente confidencial <u>por lo que al proporcionar sus datos personales</u>,éstos serán utilizados única y
+					exclusivamente para los siguientes fines:
+				</p>
+			</div>
+			<div class=" row">
+				<ol start="1" style="list-style-type:none; text-align:left ;padding-left:3%">
+					<li>a) Identificarlo y contactarlo.</li>
+					<li>b) Integrar su expediente como solicitante de empleo.</li>
+					<li>c) Evaluar su solicitud de empleo de acuerdo con nuestro proceso de selecci&oacute;n y/o reclutamiento.</li>
+					<li>d) Verificar la informaci&oacute;n proporcionada por usted.</li>
+					<li>e) Mantenernos en contacto con usted durante el proceso de reclutamiento y selecci&oacute;n por diversos medios de comunicaci&oacute;n electr&oacute;nica y/o f&iacute;sica como correo electr&oacute;nico, tel&eacute;fono, servicios de mensajer&iacute;a, etc. &nbsp;</li>
+					<li>f) Realizar evaluaciones&nbsp;</li>
+					<li>g) Transferir a Terceros sus Datos Personales, para el proceso de reclutamiento y contrataci&oacute;n de empresas que solicitan la vacante de trabajo y con la que pudiera ser registrado como empleado (aplicable a todos los incisos anteriores).</li>
+					<li>h) Cumplir con las obligaciones legales y requerimientos de autoridades competentes</li>
+				</ol>
+			</div>
+			<div class=" row">
+				<p style="text-align:justify">Adicionalmente su información será utilizada y almacenada con la siguiente finalidad:</p>
+			</div>
+			<div class="row ">
+				<ul style="list-style:none">
+					<li>
+						<p style="text-align:justify; padding-left:5%">•	En caso de no ser seleccionado, su información será resguardada dentro de nuestra base de datos por un periodo permanente, con la finalidad de considerarle a futuro en caso de existir vacantes acorde a su perfil profesional. Si usted no desea que sus datos personales sean tratados para la finalidad señalada anteriormente, puede oponer su consentimiento por escrito en el presente aviso de privacidad. Su negativa en este sentido no será motivo para dejar de dar trámite a su solicitud de empleo.</p>
+					</li>
+				</ul>
+			</div>
+			<div class=" row">
+				<p style="text-align:justify">
+					Datos personales que se recabarán para llevar a cabo las finalidades descritas en el presente aviso de privacidad: (I) IDENTIFICACIÓN Y CONTACTO, (II) ACADÉMICOS, (III) LABORALES, (IV) PATRIMONIALES Y (IV) SENSIBLES.
+				</p>
+			</div>
+			<div class=" row">
+				<p style="text-align:justify">Para prevenir el acceso no autorizado a sus datos personales y con el fin de asegurar que la información sea utilizada para los fines establecidos en este aviso de privacidad, hemos determinado diversos mecanismos con la finalidad de evitar el uso o divulgación de sus datos, permitiéndonos tratarlos debidamente.</p>
+			</div>
+			<div class=" row">
+				<p style="text-align:justify">
+					Todos sus datos personales son tratados de acuerdo a la legislación aplicable y vigente en el país, por ello le informamos que usted puede ejercer sus derechos ARCO: Acceder, Rectificar, Cancelar u Oponerse al tratamiento que le damos a sus datos personales, derecho que podrá hacer valer a través <span style="color:green">del área de Sistemas de Gestión</span>, encargado de la seguridad de datos personales con mismo domicilio en, <span style="color:green">el teléfono (81) 8047 4545</span> o por medio del correo electrónico <u style="color:blue">sistemagestion@sissaseguridad.com</u>
+					A través de estos canales usted podrá actualizar sus datos y especificar el medio por el cual desea recibir información, ya que, en caso de no contar con esta especificación de su parte, Servicio Integral de Seguridad, S.A. de C.V. establecerá el canal pertinente para enviarle la información.
+				</p>
+			</div>
+			<div class=" row">
+				<p style="text-align:justify">Este aviso de privacidad podrá ser modificado por <span style="color:green">Servicio Integral de Seguridad, S.A. de C.V.</span>, dichas modificaciones serán oportunamente informadas a través de nuestra página de internet <span style="color:green">https://www.sissaseguridad.com/</span> o cualquier otro medio de comunicación que Servicio Integral de Seguridad, S.A. de C.V. determine para tal efecto.</p>
+			</div>
+			<div class=" row">
+				<p style="text-align:justify">Asimismo, se le informa, que para dar cabal cumplimiento de las funciones que Servicio Integral de Seguridad, S.A. de C.V. requiere de su personal, será necesaria la transmisión de sus datos personales a terceros, así como la difusión de los mismos, motivo por el cual se solicita su consentimiento. </p>
+			</div>
+			<div class=" row">
+				<p style="text-align:justify">
+					Para más información, comunicarse con el contacto mencionado. <br />
+					Consiento el tratamiento de mis datos personales, en los términos del presente aviso de privacidad.
+				</p>
+			</div>
+			<div class="row">
+				<div class="col-12 ">
+					<img id="fingerLeft" width="60px" class="imgLeft" height="80px" />
+					<img id="firma_AvisoCandidato" class="imgfirma" width="175px" height="80px" title="firma" />
+					<img id="fingerRight" width="60px" class="imgRight" height="80px" />
+				</div>
+				<div class="col-12">
+					<p class="text-center" id="AvNombre_Prospecto"></p>
+				</div>
+			</div>
+			<div class=" row">
+				<div class="col-12">
+					<img id="pie" width="100%" height="30px" title="pie" />
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css" />
+	<style>
+		.imgfirma {
+			/*position: inherit;*/ /* se usa en caso de este div, donde tiene la altura y el ancho definido, sin esto top, right y left no funcionarían */
+			width: 100px;
+			margin-left: 25%
+		}
+
+		.redondo {
+			display: block;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+		}
+
+		.marcaAguaSissa {
+			background-image: url(img/marcaAgua.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: inherit;
+			background-size: contain;
+		}
+
+		.text-right {
+			text-align: right;
+		}
+
+		.left-tittle {
+			text-align: left;
+			padding-left: 14%;
+		}
+
+		.text-left {
+			text-align: left;
+		}
+
+		.text-left-5 {
+			text-align: left;
+			padding-left: 5%;
+		}
+
+		.text-justify {
+			text-align: justify;
+		}
+
+		html {
+			font-size: 12px;
+		}
+
+		.pt-5 {
+			padding-top: 5rem !important;
+			padding-left: 5rem !important;
+			padding-right: 5rem !important;
+		}
+
+		.intEnc {
+			padding-top: 5rem !important;
+		}
+
+		.mt-70 {
+			margin-top: 70px;
+		}
+
+		.mt-60 {
+			margin-top: 60px;
+		}
+
+		.mt-50 {
+			margin-top: 50px;
+		}
+
+		.mt-40 {
+			margin-top: 40px;
+		}
+
+		.mt-30 {
+			margin-top: 30px;
+		}
+
+		.mt-20 {
+			margin-top: 20px;
+		}
+
+		.mt-10 {
+			margin-top: 10px;
+		}
+
+		.mt-n10 {
+			margin-top: -10px;
+		}
+
+		.borde {
+			border: .7px solid grey;
+		}
+
+		.logoe {
+			position: absolute;
+			/* width: 100px; */
+			margin-left: .5%;
+			margin-right: .5%;
+			margin-top: .5%;
+			margin-bottom: .5%;
+		}
+		.imgLeft {
+			float: left;
+			border-radius: 40%;
+			margin-left: 10%
+		}
+
+		.imgRight {
+			float: right;
+			border-radius: 40%;
+			margin-right: 10%
+		}
+	</style>
+	<script type="text/javascript">
+
+		window.chrome.webview.addEventListener('message', event => {
+			WriteDataFromCsharp(event.data);
+		});
+		function WriteDataFromCsharp(data) {
+			candidato = JSON.parse(data);
+
+			document.getElementById('encabezado').setAttribute("src", candidato.FotoEncabezado);
+			document.getElementById('pie').setAttribute("src", candidato.FotoPiePagina);
+			//document.getElementById('pie').setAttribute("src", candidato.FotoPiePagina);
+			document.getElementById('firmaAvisoPrivacidad').setAttribute("src", candidato.Firma);
+			document.getElementById('nombre_AvisoPrivacidad').innerText = candidato.Nombre;
+
+			document.getElementById('fecha').innerText = formatoDocumento(candidato.Fecha);
+			//huellas dactilares de los pulgares
+			document.getElementById('fingerLeft').setAttribute("src", candidato.Huellas.HuellaI)
+			document.getElementById('fingerRight').setAttribute("src", candidato.Huellas.HuellaD)
+		}
+		function formatoDocumento(fecha_documento) {
+			var fechayhora = new Array()
+			fechayhora = fecha_documento.split(' ');
+			var fecha = new Array()
+			fecha = fechayhora[0].split('/')
+			var dia = fecha[0]
+			var mes = fecha[1]
+			var año = fecha[2]
+
+			return "Monterrey, Nuevo León a " + dia + " de " + gmes(mes) + " del " + año + "."
+		}
+		function gmes(mes) {
+			var _mes = ""
+			switch (mes) {
+				case "01":
+					_mes = "Enero"
+					break;
+				case "02":
+					_mes = "Febrero"
+					break;
+				case "03":
+					_mes = "Marzo"
+					break;
+				case "04":
+					_mes = "Abril"
+					break;
+				case "05":
+					_mes = "Mayo"
+					break;
+				case "06":
+					_mes = "Junio"
+					break;
+				case "07":
+					_mes = "Julio"
+					break;
+				case "08":
+					_mes = "Agosto"
+					break;
+				case "09":
+					_mes = "Septiembre"
+					break;
+				case "10":
+					_mes = "Octubre"
+					break;
+				case "11":
+					_mes = "Noviembre"
+					break;
+				case "12":
+					_mes = "Diciembre"
+					break;
+				default:
+					break;
+			}
+
+			return _mes;
+		}
+		function RequestData() {
+			//function triggered by a button on the html page
+			//alert('post to c#');
+			window.chrome.webview.postMessage('getData');
+		}
+
+	</script>
+</head>
+<body onload="RequestData()">
+	<div class="row">
+		<div class="container pt-5">
+			<div class="row" id="doc4">
+
+				<div class="col-12">
+					<img id="encabezado" width="100%" height="65px" title="encabezado" />
+				</div>
+
+			</div>
+			<div class="row text-center mt-20">
+				<h5><strong>AVISO DE PRIVACIDAD PARA EMPLEADOS</strong></h5>
+				<h6 class="text-right mt-10" id="fecha" </h6>
+			</div>
+
+			<div class="marcaAguaSissa row mt-10">
+				<di class="row">
+					<p class="text-justify">
+						<strong>Servicio Integral de Seguridad, S.A. de C.V.</strong>, es una empresa legalmente constituida de conformidad con las leyes mexicanas, con domicilio en <strong>Juan Álvarez #209, Col. Centro, Monterrey C.P. 64000</strong>,
+						representada por el C. Enrique Villanueva Hernández, en su carácter de Apoderado Legal de la sociedad y como responsable de sus datos personales, hace de su conocimiento que la información de
+						nuestro personal es tratada de forma estrictamente confidencial por lo que al proporcionar sus datos personales, éstos serán utilizados única y exclusivamente para los siguientes fines:
+					</p>
+				</di>
+
+				<div class="row">
+					<ul style="list-style:none" class="text-left">
+						<li>a)	Integrar su expediente.</li>
+						<li>b)	Elaborar su contrato respectivo.</li>
+						<li>c)	Avisos de afiliación al IMSS, INFONAVIT, SAT.</li>
+						<li>d)	Solicitud de cuenta de nómina.</li>
+						<li>e)	Requerimiento de la autoridad competente.</li>
+						<li>f)	Estudio socioeconómico.</li>
+						<li>g)	Llevar acabo algún fin análogo o con el objeto social de <strong>Servicio Integral de Seguridad, S.A. de C.V.</strong></li>
+						<li>h)	Transferir a Terceros sus datos personales, con fines de solicitar Referencia Laboral del titular.</li>
+						<li>i)	Evaluaciones Psicométricas y de cualquier índole para el en área de Recursos Humanos, como PPP (Personal Proficiency Profile).</li>
+					</ul>
+				</div>
+				<div class="row">
+					<p class="text-justify">
+						Para prevenir el acceso no autorizado a sus datos personales y con el fin de asegurar que la información sea utilizada para los fines establecidos en este aviso de privacidad,
+						hemos establecidos diversos procedimientos con la finalidad de evitar el uso o divulgación de sus datos permitiéndonos tratarlos debidamente.
+					</p>
+				</div>
+				<div class="row text-justify">
+					<p>
+						<span style="color:green">En todo momento usted podrá limitar el uso o divulgación de</span> sus datos personales <span style="color:green">mediante el ejercicio de</span> los derechos (ARCO) de acceder, rectificar, cancelar u oponerse al tratamiento que le damos a
+						sus datos personales, derecho que podrá hacer valer a través del correo electrónico sistemagestion@sissaseguridad.com
+					</p>
+				</div>
+				<div class="row">
+					<p class="text-justify">
+						A través de este canal usted podrá actualizar sus datos y especificar el medio por el cual desea recibir información, ya que en caso de no contar con esta especificación de su parte,
+						<strong>Servicio Integral de Seguridad, S.A. de C.V.</strong>, establecerá el canal pertinente para enviarle la información.
+					</p>
+				</div>
+				<div class="row">
+					<p class="text-justify">
+						Este aviso de privacidad podrá ser modificado por <strong>“Servicio Integral de Seguridad, S.A. de C.V.”</strong>, dichas modificaciones  serán oportunamente  informadas a través de nuestra página de internet
+						<span style="color:green">https://www.sissaseguridad.com</span> o cualquier otro medio de comunicación que <strong>“Servicio Integral de Seguridad, S.A. de C.V.”</strong>, determine para tal efecto.
+					</p>
+				</div>
+				<div class="row">
+					<p class="text-justify">
+						Asimismo, se le informa, que para dar cabal cumplimiento de las funciones que <strong>Servicio Integral de Seguridad, S.A. de C.V.</strong> requiere de su personal, será necesaria la transmisión de sus datos personales a terceros,
+						así como la difusión de los mismos, motivo por el cual se solicita su consentimiento.
+					</p>
+				</div>
+				<div class="row">
+					<p class="text-justify" ">
+						Para mayor información, comunicarse con el contacto mencionado. Consiento el tratamiento de mis datos personales, en los términos del presente aviso de privacidad.
+					</p>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-12">
+					<img id="fingerLeft" width="60px" class="imgLeft" height="80px" />
+					<img id="firmaAvisoPrivacidad" width="175px" class="imgfirma" height="80px" title="firma" />
+					<img id="fingerRight" width="60px" class="imgRight" height="80px" />
+				</div>
+				<div class="row">
+					<p id="nombre_AvisoPrivacidad" class="text-center"></p>
+				</div>
+				
+			</div>
+			<div class=" row mt-40">
+				<div class="col-12">
+					<img id="pie" width="100%" height="30px" title="pie" />
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

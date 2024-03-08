@@ -1,0 +1,468 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css" />
+	<style>
+		.imgfirma {
+			/*position: inherit;*/ /* se usa en caso de este div, donde tiene la altura y el ancho definido, sin esto top, right y left no funcionarían */
+			width: 100px;
+			
+		}
+
+		.redondo {
+			display: block;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+		}
+
+		.marcaAguaSissa {
+			background-image: url(img/marcaAgua.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: inherit;
+			background-size: contain;
+		}
+
+		.text-right {
+			text-align: right;
+		}
+
+		.left-tittle {
+			text-align: left;
+			padding-left: 14%;
+		}
+
+		.text-left {
+			text-align: left;
+		}
+
+		.text-left-5 {
+			text-align: left;
+			padding-left: 5%;
+		}
+
+		.text-justify {
+			text-align: justify;
+		}
+
+		html {
+			font-size: 14px;
+		}
+
+		.pt-5 {
+			padding-top: 5rem !important;
+			padding-left: 5rem !important;
+			padding-right: 5rem !important;
+		}
+		.intEnc {
+			padding-top: 5rem !important;
+		}
+		.mt-70 {
+			margin-top: 70px;
+		}
+
+		.mt-60 {
+			margin-top: 60px;
+		}
+
+		.mt-50 {
+			margin-top: 50px;
+		}
+
+		.mt-40 {
+			margin-top: 40px;
+		}
+
+		.mt-30 {
+			margin-top: 30px;
+		}
+		.borde {
+			border: .7px solid grey;
+		}
+		.logoe {
+			position: absolute;
+			/* width: 100px; */
+			margin-left: .5%;
+			margin-right: .5%;
+			margin-top: .5%;
+			margin-bottom: .5%;
+		}
+		.imgLeft {
+			float: left;
+			border-radius: 40%;
+			margin-left: 10%
+		}
+
+		.imgRight {
+			float: right;
+			border-radius: 40%;
+			margin-right: 10%
+		}
+	</style>
+	<script type="text/javascript">
+
+		window.chrome.webview.addEventListener('message', event => {
+			WriteDataFromCsharp(event.data);
+		});
+		function WriteDataFromCsharp(data) {
+
+			candidato = JSON.parse(data);
+
+			document.getElementById('logo').setAttribute("src", candidato.FotoLogo);
+			document.getElementById('logo2').setAttribute("src", candidato.FotoLogo);
+			document.getElementById('logo3').setAttribute("src", candidato.FotoLogo);
+			document.getElementById('pie1').setAttribute("src", candidato.FotoPiePagina);
+			document.getElementById('pie2').setAttribute("src", candidato.FotoPiePagina);
+			//document.getElementById('pie').setAttribute("src", candidato.FotoPiePagina);
+			document.getElementById('firmaConvenioConfCandidato').setAttribute("src", candidato.Firma);
+			document.getElementById('nombreConvenio').innerText = candidato.Nombre;
+			document.getElementById('nombre_Convenio_Conf').innerText = candidato.Nombre;
+			document.getElementById('fechalarga').innerText = formatoDocumento(candidato.Fecha);
+			document.getElementById('fecha1').innerText = formatoDocumento(candidato.Fecha);
+			document.getElementById('fecha2').innerText = formatoDocumento(candidato.Fecha);
+			document.getElementById('fecha3').innerText = formatoDocumento(candidato.Fecha);
+			//firma patron
+			document.getElementById('firmaEntidad').setAttribute("src", candidato.FirmasRepTes[0].Firma);
+			document.getElementById('nombreEntidad').innerHTML = "C. " + candidato.FirmasRepTes[0].Nombre + " SERVICIO INTEGRAL DE SEGURIDAD, S.A. DE C.V.";
+			//huellas dactilares de los pulgares
+			document.getElementById('fingerLeft').setAttribute("src", candidato.Huellas.HuellaI)
+			document.getElementById('fingerRight').setAttribute("src", candidato.Huellas.HuellaD)
+		}
+		function formatoDocumento(fecha_documento) {
+			var fechayhora = new Array()
+			fechayhora = fecha_documento.split(' ');
+			var fecha = new Array()
+			fecha = fechayhora[0].split('/')
+			var dia = fecha[0]
+			var mes = fecha[1]
+			var año = fecha[2]
+
+			return fechayhora[0]
+		}
+		function gmes(mes) {
+			var _mes = ""
+			switch (mes) {
+				case "01":
+					_mes = "Enero"
+					break;
+				case "02":
+					_mes = "Febrero"
+					break;
+				case "03":
+					_mes = "Marzo"
+					break;
+				case "04":
+					_mes = "Abril"
+					break;
+				case "05":
+					_mes = "Mayo"
+					break;
+				case "06":
+					_mes = "Junio"
+					break;
+				case "07":
+					_mes = "Julio"
+					break;
+				case "08":
+					_mes = "Agosto"
+					break;
+				case "09":
+					_mes = "Septiembre"
+					break;
+				case "10":
+					_mes = "Octubre"
+					break;
+				case "11":
+					_mes = "Noviembre"
+					break;
+				case "12":
+					_mes = "Diciembre"
+					break;
+				default:
+					break;
+			}
+
+			return _mes;
+		}
+		function RequestData() {
+			//function triggered by a button on the html page
+			//alert('post to c#');
+			window.chrome.webview.postMessage('getData');
+		}
+
+	</script>
+</head>
+<body onload="RequestData()">
+	<div class="row">
+		<div class="container pt-5">
+
+			<div class="row" id="doc3">
+				<div class="row">
+					<div class="col-2 borde">
+						<img id="logo" class="logoe" width="80px" height="80px" title="logo" />
+					</div>
+					<div class="col-6 borde">
+						<p style="color: black; text-align: center; margin-top: 2rem; font-size: 16px">
+							<strong>
+								CONVENIO DE CONFIDENCIALIDAD
+								PARA EMPLEADOS
+							</strong>
+						</p>
+					</div>
+					<div class="col-4 borde">
+						<div class="row">
+							<div class="col-5 borde text-left" style="background-color: #C0A7C9">Código:</div>
+							<div class="col-7 borde text-left">FO-RHU-52</div>
+							<div class="col-5 borde text-left" style="background-color: #C0A7C9">Versión:</div>
+							<div class="col-7 borde text-left">01</div>
+							<div class="col-5 borde text-left" style="background-color: #C0A7C9">Fecha:</div>
+							<div id="fecha1" class="col-7 borde text-left"></div>
+							<div class="col-5 borde text-left" style="background-color: #C0A7C9 "> Página:</div>
+							<div class="col-7 borde text-left">1 de 3</div>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="row mt-40">
+				<p class="text-right">Monterrey, N.L. a <span id="fechalarga"></span> </p>
+			</div>
+			<div class="row mt-30">
+				<p class="text-justify">
+					<strong>
+						CONVENIO DE CONFIDENCIALIDAD PARA EL TRATAMIENTO DE DATOS PERSONALES QUE CELEBRAN POR UNA PARTE SERVICIO INTEGRAL DE SEGURIDAD, S.A. DE C.V. REPRESENTADO EN ESTE MOMENTO POR EL C. ENRIQUE VILLANUEVA HERNANDEZ, EN LO SUCESIVO “LA ENTIDAD”,
+						Y POR LA OTRA EL, HOMERO CARREON SALAZAR , EN LO SUCESIVO “EL EMPLEADO”, AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS:
+					</strong>
+				</p>
+			</div>
+			<div class="row">
+				<p class="">
+					<strong>D E C L A R A C I O N E S:</strong>
+				</p>
+				<p class="text-left-5"><strong>I.	“LA ENTIDAD”</strong> declara por conducto de apoderado jurídico:</p>
+			</div>
+			<div class="row">
+				<p class="text-justify">
+					a) Ser una empresa tiene por objeto social:<strong>
+						Servicio de seguridad y proteccion, reclutamiento y selección de personal de seguridad, proteccion personal y familiar, guardias especiales, traslados especiales de valores, asesorias,
+						investigaciones, capacitacion.
+					</strong>, y quien tiene su domicilio en <strong>Juan Álvarez #209, Col. Centro, Monterrey C.P. 64000.</strong>
+				</p>
+			</div>
+			<div class="row">
+				<p class="text-justify">
+					b) Con la finalidad de la consecución de su objeto social, <strong>“LA ENTIDAD”</strong>, obtiene de sus clientes, proveedores y empleados, información que la ley clasifica como “DATOS PERSONALES”.
+				</p>
+				<p class="text-justify">Que estos “DATOS PERSONALES” los conocen o adquiere con motivo de su trabajo “EL EMPLEADO”.</p>
+			</div>
+			<div class="row">
+				<p class="text-justify">
+					C) Por Disposición de LA LEY,<strong>“LA ENTIDAD”</strong>  está obligado a implementar protocolos de seguridad y protección de los citados “DATOS PERSONALES”, y por ende comprometer a sus empleados a NO DIVULGAR, NI USAR CON FINES ILÍCITOS tales “DATOS PERSONALES”.
+				</p>
+				<p class="text-left-5"><strong>II.	EL EMPLEADO</strong> declara:</p>
+			</div>
+			<div class="row">
+				<p class="text-justify">
+					a) Ser una persona fisica de nombre <strong>C. <span id="nombreConvenio"></span></strong> y que desempeña sus labores en el domicilio ubicado en
+					<strong>Juan Alvarez #209, Col. Centro, Monterrey C.P. 64000.</strong> Asi como en su modalidad TRABAJO A DISTANCIA.
+
+				</p>
+
+			</div>
+
+			<div class="row">
+				<p class="text-justify">
+					b) Que es trabajador de la <strong>“LA ENTIDAD”</strong> y por ello participa de los conocimientos de “LOS DATOS PERSONALES” de clientes, empleados, y proveedores de su <strong>“LA ENTIDAD”</strong>, y que desea formalizar por escrito su compromiso de NO DIVULGACIÓN O USO ILÍCITO de los “DATOS PERSONALES”,
+				</p>
+			</div>
+
+			<div class="mt-60 row">
+				<div class="col-12">
+					<img id="pie1" width="100%" height="30px" title="pie" />
+
+				</div>
+			</div>
+			<!--encabezado 2 pagina-->
+			<div class="row intEnc" id="doc3">
+				<div class="row">
+					<div class="col-2 borde">
+						<img id="logo2" class="logoe" width="80px" height="80px" title="logo" />
+					</div>
+					<div class="col-6 borde">
+						<p style="color: black; text-align: center; margin-top: 2rem; font-size: 16px">
+							<strong>
+								CONVENIO DE CONFIDENCIALIDAD
+								PARA EMPLEADOS
+							</strong>
+						</p>
+					</div>
+					<div class="col-4 borde">
+						<div class="row">
+							<div class="col-5 borde text-left" style="background-color: #C0A7C9">Código:</div>
+							<div class="col-7 borde text-left">FO-RHU-52</div>
+							<div class="col-5 borde text-left" style="background-color: #C0A7C9">Versión:</div>
+							<div class="col-7 borde text-left">01</div>
+							<div class="col-5 borde text-left" style="background-color: #C0A7C9">Fecha:</div>
+							<div id="fecha2" class="col-7 borde text-left"></div>
+							<div class="col-5 borde text-left" style="background-color: #C0A7C9 "> Página:</div>
+							<div class="col-7 borde text-left">2 de 3</div>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<div class="row mt-60">
+				<p class="text-left-5"><strong>III.	AMBAS partes declaran:</strong></p>
+				<p class="text-justify">Que en virtud del contrato de prestación de servicios que tienen celebrado, es su deseo celebrar el presente convenio de confidencialidad.</p>
+			</div>
+			<div class="row">
+				<p>
+					<strong>C L A U S U L A S:</strong>
+				</p>
+			</div>
+			<div class="row">
+				<p class="text-justify">
+					<strong> PRIMERA.-</strong> <strong><u>“EL EMPLEADO”</u></strong> se obliga a proteger y guardar escrupulosamente la información confidencial y “DATOS PERSONALES” DE CLIENTES, PROVEEDORES y EMPLEADOS, de <strong>“LA ENTIDAD”</strong> , QUE LLEGUE A CONOCER O CONOZCA CON MOTIVO DE SU TRABAJO, ya sea en medios físicos como electrónicos,
+					y en consecuencia a NO DIVULGARLA, NI APROVECHARSE PARA SI, por lo que reconoce y se obliga a tener estrictamente prohibido revelarla, apoderarse o usarla directa o indirectamente o por interpósita persona, para fines distintos a los estrictamente laborales.
+				</p>
+			</div>
+			<div class="row">
+				<p class="text-justify">
+					<strong> SEGUNDA. - “EL EMPLEADO”</strong> conviene en no EJECUTAR ACCIÓN ALGUNA, que viole la confidencialidad de los citados “DATOS PERSONALES”.
+				</p>
+			</div>
+			<div class="row">
+				<p class="text-justify">
+					<strong>TERCERA. -</strong> En el caso de que <strong>“EL EMPLEADO”</strong> incumpla alguna de las estipulaciones del presente Convenio, se sujetara a las sanciones laborales, penales y administrativas, que establezca la LEY vigente al momento de la infracción.
+				</p>
+			</div>
+			<div class="row">
+				<p class="text-justify">
+					<strong>CUARTA. - “EL EMPLEADO”</strong> deberá devolver a <strong>“LA ENTIDAD”</strong>, en el momento en que ésta se lo solicite, la información que posea en rango de “DATOS PERSONALES” de clientes, empleados y proveedores de <strong>“LA ENTIDAD”</strong>.
+				</p>
+				<p class="text-justify">
+					Así mismo, tampoco podrá sustraer del domicilio de <strong>“LA ENTIDAD”</strong> o del lugar donde presta sus servicios, cualquiera de los medios materiales en donde conste la información confidencial, tales como documentos, medios electromecánicos, magnéticos,
+					discos ópticos, microfilmes, películas u otros instrumentos similares. Así como también los diarios, memorias, notas, correspondencia, dibujos, planos, especificaciones y otros documentos relacionados directa o indirectamente con la información confidencial que
+					haya elaborado, recopilado u obtenido de <strong>“LA ENTIDAD”</strong> o de cualquier tercero relacionado con éste.
+				</p>
+			</div>
+			<div class="row">
+				<p class="text-justify">
+					<strong> QUINTA. - “EL EMPLEADO”</strong> no podrá, utilizar la información confidencial de rango de “DATOS PERSONALES” que haya adquirido, obtenido o generado durante su permanencia laboral con <strong>“LA ENTIDAD”</strong>, cuando preste servicios
+				</p>
+			</div>
+
+			<div class="mt-60 row">
+				<div class="col-12">
+					<img id="pie2" width="100%" height="30px" title="pie" />
+
+				</div>
+			</div>
+			<!--encabezado 2 pagina-->
+			<div class="row intEnc" id="doc3">
+				<div class="row">
+					<div class="col-2 borde">
+						<img id="logo3" class="logoe" width="80px" height="80px" title="logo" />
+					</div>
+					<div class="col-6 borde">
+						<p style="color: black; text-align: center; margin-top: 2rem; font-size: 16px">
+							<strong>
+								CONVENIO DE CONFIDENCIALIDAD
+								PARA EMPLEADOS
+							</strong>
+						</p>
+					</div>
+					<div class="col-4 borde">
+						<div class="row">
+							<div class="col-5 borde text-left" style="background-color: #C0A7C9">Código:</div>
+							<div class="col-7 borde text-left">FO-RHU-52</div>
+							<div class="col-5 borde text-left" style="background-color: #C0A7C9">Versión:</div>
+							<div class="col-7 borde text-left">01</div>
+							<div class="col-5 borde text-left" style="background-color: #C0A7C9">Fecha:</div>
+							<div id="fecha3" class="col-7 borde text-left"></div>
+							<div class="col-5 borde text-left" style="background-color: #C0A7C9 "> Página:</div>
+							<div class="col-7 borde text-left">3 de 3</div>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<div class="row mt-60">
+				<p class="text-justify">
+					a terceras personas o se
+					emplee por cuenta propia o como funcionario, miembro, empleado, accionista, consultor, prestador de servicios, representante o asesor de otra persona física o moral, o entidad gubernamental.
+				</p>
+				<p class="text-justify">
+					No podrá, por lo tanto, por si o por interpósita persona, contribuir con dichos conocimientos e información confidencial o DATOS PERSONALES DE TERCEROS o de <strong>“LA ENTIDAD”</strong>, en ningún tipo de labor o en ventas relacionadas con cualquier
+					servicio que tenga conexión directa o indirecta con los servicios prestados a favor de <strong>“LA ENTIDAD”</strong>, ni con cualquiera de los clientes o empleados de <strong>“LA ENTIDAD”</strong>.
+				</p>
+				<p class="text-justify">
+					<strong> “EL EMPLEADO”</strong> se obliga en el caso de cualquier incumplimiento a los compromisos aquí adquiridos, a realizar el pago de los daños y perjuicios que tal incumplimiento ocasione a <strong>“LA ENTIDAD”</strong>, sin perjuicio de las demás acciones legales que procedan en su contra
+					por aplicación de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.
+				</p>
+			</div>
+
+
+
+			<div class="row">
+				<p class="text-justify">
+					<strong> SEXTA. - </strong>Para la interpretación, cumplimiento y ejecución del presente instrumento, las partes se someten expresamente a la competencia, jurisdicción y fuero de las leyes de la ciudad de MÉXICO renunciando desde ahora a cualquier otro fuero que por razón de sus domicilios en el presente o futuro pudiere corresponderles.
+				</p>
+			</div>
+			<div class="row">
+				<p class="text-justify">
+					LEÍDO QUE FUE POR AMBAS PARTES EL PRESENTE CONVENIO Y CONOCIENDO SU VALOR, CONTENIDO Y ALCANCE LO FIRMAN POR DUPLICADO EL 08 DE JUNIO DEL AÑO DOS MIL VEINTITRES (2023), siendo constancia de su firma de entrega-recepción de un ejemplar original para EL EMPLEADO.
+				</p>
+			</div>
+
+			<div class="row">
+				<div class="col-6">
+					<div class=" row">
+						<div class="col-12 text-center">
+
+							<p><strong>LA ENTIDAD</strong></p>
+							
+							<img id="firmaEntidad" width="175px" height="80px" />
+						</div>
+						<div class="row">
+							<p class="text-justify" id="nombreEntidad"></p>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-6">
+					<div class=" row">
+						<div class="col-12 text-center">
+							<p><strong>EL TRABAJADOR</strong></p>
+							<img id="fingerLeft" width="60px" class="imgLeft" height="80px" />
+							<img id="firmaConvenioConfCandidato" class="imgfirma" width="175px" height="80px" />
+							<img id="fingerRight" width="60px" class="imgRight" height="80px" />
+						</div>
+						<div class="row">
+							<p class="text-center"> <strong>C. <span class="text-justify" id="nombre_Convenio_Conf"></span></strong></p>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
